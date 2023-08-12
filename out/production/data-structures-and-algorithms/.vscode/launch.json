@@ -6,13 +6,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "SortAStack",
-            "request": "launch",
-            "mainClass": "A_Theory._Stack.SortAStack",
-            "projectName": "data-structures-and-algorithms_f206f5a9"
-        },
-        {
-            "type": "java",
             "name": "PriorityQueue_Execution",
             "request": "launch",
             "mainClass": "A_Theory._Queue._Priority_Queue.PriorityQueue_Execution",
