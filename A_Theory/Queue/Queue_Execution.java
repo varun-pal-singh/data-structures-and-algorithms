@@ -1,4 +1,4 @@
-package A_Theory._Queue;
+package A_Theory.Queue;
 import java.util.LinkedList;
 import java.util.Queue;
 

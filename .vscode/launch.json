@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "A_Theory.Recursion.DivideAndConquer.MergeSort",
+            "projectName": "data-structure-and-algorithms_999bac5e"
+        },
+        {
+            "type": "java",
+            "name": "Fibo",
+            "request": "launch",
+            "mainClass": "A_Theory.Recursion.DivideAndConquer.Fibo",
+            "projectName": "data-structure-and-algorithms_999bac5e"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "A_Theory.Recursion.DivideAndConquer.BinarySearch",
+            "projectName": "data-structure-and-algorithms_999bac5e"
+        },
+        {
+            "type": "java",
+            "name": "SumOfNaturalNum",
+            "request": "launch",
+            "mainClass": "A_Theory.Recursion.Numbers.SumOfNaturalNum",
+            "projectName": "data-structure-and-algorithms_999bac5e"
+        },
+        {
+            "type": "java",
+            "name": "DecimalToBinary",
+            "request": "launch",
+            "mainClass": "A_Theory.Recursion.Numbers.DecimalToBinary",
+            "projectName": "data-structure-and-algorithms_999bac5e"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "A_Theory._Recursion.Palindrome",
+            "projectName": "data-structure-and-algorithms_999bac5e"
+        },
+        {
+            "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "A_Theory._Recursion.ReverseString",
+            "projectName": "data-structure-and-algorithms_999bac5e"
+        },
+        {
+            "type": "java",
             "name": "PriorityQueue_Execution",
             "request": "launch",
             "mainClass": "A_Theory._Queue._Priority_Queue.PriorityQueue_Execution",

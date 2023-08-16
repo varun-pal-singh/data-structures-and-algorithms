@@ -1,4 +1,4 @@
-package A_Theory._LinkedList;
+package A_Theory.LinkedList;
 import java.util.*;
 
 // LinkedList = stores Nodes in 2 parts (data + address)

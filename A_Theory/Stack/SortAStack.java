@@ -1,4 +1,4 @@
-package A_Theory._Stack;
+package A_Theory.Stack;
 
 import java.util.Stack;
 
