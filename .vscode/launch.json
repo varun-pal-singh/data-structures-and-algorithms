@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LinkedList_Execution",
+            "request": "launch",
+            "mainClass": "A_Theory._LinkedList.LinkedList_Execution",
+            "projectName": "data-structure-and-algorithms_999bac5e"
+        },
+        {
+            "type": "java",
             "name": "PriorityQueue_Execution",
             "request": "launch",
             "mainClass": "A_Theory._Queue._Priority_Queue.PriorityQueue_Execution",
