@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "School",
+            "request": "launch",
+            "mainClass": "A_Theory.OOP.Classes_Constructors_Objects.School",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
+            "name": "WrapperExample",
+            "request": "launch",
+            "mainClass": "A_Theory.OOP.Classes_Constructors_Objects.WrapperExample",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "A_Theory.OOP.Classes_Constructors_Objects.Main",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
             "name": "MergeSort",
             "request": "launch",
             "mainClass": "A_Theory.Recursion.DivideAndConquer.MergeSort",
