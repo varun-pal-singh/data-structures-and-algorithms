@@ -16,10 +16,16 @@ public class StaticBlock {
     public static void main(String[] args) {
         StaticBlock.b += 10;    // b = 60;
         StaticBlock obj1 = new StaticBlock();
+        System.out.println("obj1 = "+obj1);
+
         System.out.println("b after creating an object is "+StaticBlock.b); // 60
 
+
         StaticBlock.b += 20;    // should be 80 ? lets see...
+        
         StaticBlock obj2 = new StaticBlock();
+        System.out.println("obj2 = "+obj2);
+
         System.out.println("b after creating another object is "+StaticBlock.b); // 80 ?
     }
 }

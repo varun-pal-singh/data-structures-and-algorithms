@@ -11,6 +11,10 @@ public class InnerClasses {
             this.name = name;
             Inner1.className = className;
         }
+
+        public String toString(){
+            return this.name;
+        }
     }
 
     class Inner2{
@@ -25,6 +29,7 @@ public class InnerClasses {
         System.out.println();
 
         Inner1 obj1 = new Inner1("Test1", "Calling innerClass first time");
+        
         System.out.println("Obj1 name = "+obj1.name);
         
 
@@ -33,6 +38,8 @@ public class InnerClasses {
         System.out.println("ClassName for obj1 = "+Inner1.className);
         System.out.println("ClassName for obj1  = "+Inner1.className);
 
+        System.out.println(obj2);   // first println() will check for toString() method inside class, if it does not finds it then it will call its own default toString() which prints random hash value;
+
         // for second inner class
 
         // Inner2 obj3 = new Inner2();  // Error Inner2 is non-static inner class, to call non-static inner class we have to create object of outer class
@@ -40,6 +47,7 @@ public class InnerClasses {
         // InnerClasses outerObj = new InnerClasses();
 
         // outerObj.Inner2 obj4 = new outerObj.Inner2();
+
 
     }
 }

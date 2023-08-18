@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StaticBlock",
+            "request": "launch",
+            "mainClass": "A_Theory.OOP.Packages_Static_Singleton_Inbuilt_Methods.staticExample.StaticBlock",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
+            "name": "SingletonExample",
+            "request": "launch",
+            "mainClass": "A_Theory.OOP.Packages_Static_Singleton_Inbuilt_Methods.singletonClasses.SingletonExample",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
+            "name": "InnerClasses",
+            "request": "launch",
+            "mainClass": "A_Theory.OOP.Packages_Static_Singleton_Inbuilt_Methods.staticExample.InnerClasses",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
             "name": "InnerClasses",
             "request": "launch",
             "mainClass": "A_Theory.OOP.Packages_Static_Singleton_Inbuilt_Methods.staticExample.InnerClasses",
