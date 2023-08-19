@@ -1,0 +1,130 @@
+Parents -> Child
+
+In oop, inheritance means a sub or child class which is inheriting properties and methods available in super or parent class.
+
+syntax : 
+
+public class Parent{
+    int length, width, height;
+    Parent(length, width, height){
+        
+    }
+}
+
+public class Child "extends" Parent{
+    int weight;
+
+    int calcArea(length, width){
+        return length * width;
+    }
+
+    Child(weight, length, width, height){
+        // whenever you create object of child class, you also have to assign properties which are inside Parent class.
+        // properties which belongs to parent class can be assign through calling constructor of parent class
+
+        super(length, width, height); 
+        // here super() takes properties which belong to parent class and call the constructor which takes 3 arguments, as constructors can be many.
+
+        this.weight = weight;
+    }
+}
+
+The "extends" keyword means that this class is inheriting properties form its parent class.
+
+
+################################################################################################################################
+
+
+Child class will have assess to all the properties and methods which are available inside parent class except properties and methods which are decleared as "private".
+
+Parent can't access the properties and methods which are present in Child class.
+
+when the reference to a Sub class object is assign to Super class reference variable by:
+
+    Parent parentRef = new Child();
+
+then parentRef will only have access to members that are present in Parent Class.
+
+Actually, type of reference variable desides to which members reference variable has access to.
+
+Parent ref can also be made form child class object as it will have all the members of child as well as parent classes (it will only use the members that are present in parent)
+
+    Parent parentRef = new Parent(childObj);
+
+Similarly, when a reference to Super class object from Sub class reference variable by :
+
+    Child childRef = new Parent();
+
+childRef is reference variable of type Child, then it will have access to members that are present in Child class,
+
+this also means, that ones you are trying to access should be initialised,
+
+but here, when the object itself if of type parent class, how will you call the constructor of child class.
+
+thats why it throws error.
+
+but Parent() will not have members of Child class (Parent class has no idea about Child class),
+
+then childRef will not access any properties and methods of Child class, hence its throw an error.
+
+
+################################################################################################################################
+
+
+Super keyword :- when ever we have to call Super or Parent class we have use super(), this also works in multi-level inheritance (super() for child class refer to its parent(direct parent) class, super for parent class will refer to its direct parent class (parent's parent class))
+
+Every single class made in java is inherits from "Object class" (the mother of all classes in Java)
+
+usecases of super keyword : 
+
+1) to call the constructor of Parent class (only calls its immediate parent),
+2) we can actually use super as this keyword, but only difference is it will access only properties of super class.
+
+case 1: suppose Parent class has property called prop1 = "Inside Parent", and Child class has no such property, then you will be able to access this property by either of them,
+
+        this.prop1 (for Child class) and 
+        super.prop1 (for Parent class).
+
+case 2: suppose Parent has prop1 = "Inside Parent"; and Child has prop1 = "Inside Child" (overrideed), then 
+
+        this.prop1 (for Child class) => Inside Child
+        super.prop1 (for Parent class) => Inside Parent
+
+if no super() is provided inside child constructor then default parent constructor will be called.
+
+
+################################################################################################################################
+
+
+Types of Inheritance :-
+
+1) Single Inheritance: One class extends another class
+    Example BoxWeight inherits from Box class,
+
+    Class Box 
+        |
+    Class BoxWeight
+
+2) Multi-level Inheritance: suppose another class BoxPrice is made which inherits from BoxWeight class and BoxWeight class itself inherits from its parent class i.e., Box class,
+
+    Class Box
+        |
+    Class BoxWeight
+        |
+    Class BoxPrice
+
+
+3) Multiple Inheritance: when a class is extending to multiple classes.
+
+Note : If two or more parent classes have same property, then child class will get confused to which one pick, i.e., "Java does not have Multiple Inheritance", but in Java, Multiple Inheritance can be achieved through "Interfaces".
+
+Ex:
+    Class A     Class B 
+          \     /
+          Class C
+
+if A has n = 5, and B has n = 10, C does not have n, then
+    
+        C objC = new C();
+
+what will be the output of objC.n ? Hence it throw an error.
