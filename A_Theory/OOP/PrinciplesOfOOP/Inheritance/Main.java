@@ -22,6 +22,7 @@ public class Main {
 
         Box b3 = new BoxWeight(1, 2, 3, 80);
         Box b4 = new Box(c2);   // Parent ref can also be made form child class object as it will have all the members of child as well as parent classes (it will only use the members that are present in parent)
+        System.out.println(b4);
 
         System.out.println(b3.length);
         // System.out.println(b3.weight); // can't access weight
@@ -32,6 +33,7 @@ public class Main {
 
         // BoxWeight c3 = new Box(50);
         BoxWeight c4 = new BoxWeight(c2);
+        System.out.println(c4);
 
 
         // Box Price object (for multi-level inheritance)

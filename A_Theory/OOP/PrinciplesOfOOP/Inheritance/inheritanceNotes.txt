@@ -128,3 +128,19 @@ if A has n = 5, and B has n = 10, C does not have n, then
         C objC = new C();
 
 what will be the output of objC.n ? Hence it throw an error.
+
+4) Hierarchical Inheritance: One class is inherited by many classes.
+             Class A 
+            /   |   \
+           /    |    \
+    Class B  Class C  Class D 
+
+5) Hybrid Inheritance: Combination of single and multiple inheritance, since it requires muliple inheritance which is not allowed in java, hence Hybrid Inheritance is also not allowed.
+
+             Class A
+            /       \
+        Class B    Class C 
+            \       /
+             Class D
+
+FINAL keyword can be use to prevent INHERITANCE as well as OVERRIDING.

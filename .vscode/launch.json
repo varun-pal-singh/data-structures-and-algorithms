@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "A_Theory.OOP.PrinciplesOfOOP.Polymorphism.Main",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "A_Theory.OOP.PrinciplesOfOOP.Inheritance.Main",
             "projectName": "data-structures-and-algorithms_f206f5a9"
         },

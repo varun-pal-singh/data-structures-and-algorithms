@@ -1,0 +1,51 @@
+Poly-morphism :- Poly means many, morphism means way to represent, hence many ways to represent.
+
+          Class Shapes
+         /       |     \
+        /        |      \
+    Triangle  Circle   Square
+
+Types of Polymorphism:
+
+1) Compile Time Polymorphism or Static Polymorphism: achieved by the Method OverLoading.
+
+    Method OverLoading: when a class has many methods with same name but, number of parameters, ordering of parameters and return type are different.
+
+    Ex: multiple constructors:
+        A a1 = new A();
+        A a2 = new A(3, 2);
+        A a3 = new A (A a2);
+
+    Java will deside in Compile time which method to call according to ordering, number of parameters and return type.
+
+2) Runtime Polymorphism or Dynamic Polymorphism: achieved by Method OverRiding.
+
+    Method OverRiding: when a child class has method exactly same as parent class same name, same num of parameters and same return type, but Just body is different.
+
+    @Override anotation is used, if you want to check if the method is overriden or not just add this anotation above it,
+    it will throw an error if it is not overriden
+
+    type of method override is depend what is the object type.
+    here,
+        Shapes obj = new Sqaure();     // Shapes is parent and Square is child
+
+    obj.area()  // java will look the method which is present in Shapes or not and call the overriden method of Shapes in Square.
+    
+    Parent obj = new Child();   // overriding
+                       
+    Here, obj will have access to members that are present in Parent class, but which one to call is depend on Child class, this is khown is "UPCASTING".
+
+    reference class define methods which are available to object and,
+    type of object define which method one to call (if type of doesn't have that method then it will call the ref class type method),
+    this is called dynamic method dispatch, it is mechanism by which a call to overridden method resolve in runtime.
+
+Both OverLoading and OverRiding doesn't apply to instance variables.
+
+Static methods can be inherited but can't override (overriding happen when objects are created during runtime, but static doesn't depend on objects).
+
+we khow call to overridden methods resolved during runtime, hence this is also called "LATE BINDING".
+
+Final keyword use to declear constants but it can also use to prevent overriding, it inhance the performance, as call to this method is resolved during compile time only, this is called "EARLY BINDING".
+
+FINAL keyword can be use to prevent INHERITANCE as well as OVERRIDING.
+

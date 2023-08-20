@@ -1,6 +1,8 @@
 package A_Theory.OOP.PrinciplesOfOOP.Inheritance;
 
-public class Box {
+// whenever you declear a class as final all the methods of this class will also be final
+
+public /* final */ class Box {  
     double length, width, height;
     private boolean isEmpty;
     Box(){
