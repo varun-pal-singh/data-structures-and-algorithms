@@ -144,3 +144,15 @@ what will be the output of objC.n ? Hence it throw an error.
              Class D
 
 FINAL keyword can be use to prevent INHERITANCE as well as OVERRIDING.
+
+Use "instanceOf" keyword to check if child is subclass of parent,
+
+    Child childObj = new Child();
+
+    System.out.println(childObj instanceOf Child); // true
+    System.out.println(childObj instanceOf Parent); // true
+    System.out.println(childObj instanceOf Object); // true
+
+Use obj.getClass method to find class to which object is associated
+
+    System.out.println(childObj.getClass()) // "class Child"

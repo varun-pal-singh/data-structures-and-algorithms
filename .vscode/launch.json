@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Child",
+            "request": "launch",
+            "mainClass": "Child",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
+            "name": "ObjectClassDemo",
+            "request": "launch",
+            "mainClass": "ObjectClassDemo",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "A_Theory.OOP.PrinciplesOfOOP.Polymorphism.Main",
