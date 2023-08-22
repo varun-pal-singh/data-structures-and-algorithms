@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "A_Theory.OOP.AbstractInterfacesAnnotations.Interfaces.ProperWorking.Main",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "A_Theory.OOP.AbstractInterfacesAnnotations.Interfaces.NestedInterface.Main",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "A_Theory.OOP.AbstractInterfacesAnnotations.Interfaces.Main",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "A_Theory.OOP.AbstractInterfacesAnnotations.AbstractDemo.Main",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "A_Theory.OOP.AbstractInterfacesAnnotations.Main",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
             "name": "Child",
             "request": "launch",
             "mainClass": "Child",

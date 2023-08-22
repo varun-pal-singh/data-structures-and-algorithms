@@ -22,6 +22,9 @@ no modifier   +         +           +
 
 private       +
 
+Note : access modifier of overriden method should be same or better then parent method.
+for example :- if parent's method is protected then you can't name the child method to no modifier or private, it should better than parent's name, like public (expending scope, not restricting it), use table given above ^.
+
 
 ################################################################################################################################
 
