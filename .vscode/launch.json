@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReverseAStack",
+            "request": "launch",
+            "mainClass": "A_Theory.Recursion.AdityaVerma.ReverseAStack",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
+            "name": "DeleteMiddleEleOfStack",
+            "request": "launch",
+            "mainClass": "A_Theory.Recursion.AdityaVerma.DeleteMiddleEleOfStack",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
+            "name": "SortAStack",
+            "request": "launch",
+            "mainClass": "A_Theory.Recursion.Sorting.SortAStack",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
             "name": "LambdaFuntions",
             "request": "launch",
             "mainClass": "A_Theory.OOP.GenericsLambdaException.LambdaFuntions",

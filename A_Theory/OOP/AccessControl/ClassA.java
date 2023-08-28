@@ -1,4 +1,4 @@
-// package A_Theory.OOP.AccessControl.ClassA;
+
 
 public class ClassA {
     private int num;
