@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TowerOfHanoi",
+            "request": "launch",
+            "mainClass": "A_Theory.Recursion.AdityaVerma.InputOutput.TowerOfHanoi",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
+            "name": "KthSymbolGrammer",
+            "request": "launch",
+            "mainClass": "A_Theory.Recursion.AdityaVerma.InputOutput.KthSymbolGrammer",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
             "name": "ReverseAStack",
             "request": "launch",
             "mainClass": "A_Theory.Recursion.AdityaVerma.ReverseAStack",
