@@ -1,4 +1,4 @@
-package A_Theory.Recursion.AdityaVerma.InputOutput;
+package A_Theory.Recursion.AdityaVerma.SmallerInput;
 
 public class TowerOfHanoi {
     public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class TowerOfHanoi {
             return;
         }
         solve(n - 1, s, h, d);
-        System.out.println("Moving plate "+n+" from "+s+" to "+h);
+        System.out.println("Moving plate "+n+" from "+s+" to "+d);
         solve(n - 1, h, d, s);
     }
 }

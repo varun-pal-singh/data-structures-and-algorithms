@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UniqueSubset",
+            "request": "launch",
+            "mainClass": "A_Theory.Recursion.AdityaVerma.InputOutput.UniqueSubset",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
+            "name": "Subset",
+            "request": "launch",
+            "mainClass": "A_Theory.Recursion.AdityaVerma.InputOutput.Subset",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
+            "name": "TowerOfHanoi",
+            "request": "launch",
+            "mainClass": "A_Theory.Recursion.AdityaVerma.SmallerInput.TowerOfHanoi",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
             "name": "TowerOfHanoi",
             "request": "launch",
             "mainClass": "A_Theory.Recursion.AdityaVerma.InputOutput.TowerOfHanoi",

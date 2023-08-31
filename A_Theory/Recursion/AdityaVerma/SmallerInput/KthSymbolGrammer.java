@@ -1,4 +1,4 @@
-package A_Theory.Recursion.AdityaVerma.InputOutput;
+package A_Theory.Recursion.AdityaVerma.SmallerInput;
 
 public class KthSymbolGrammer {
     public static void main(String[] args) {
