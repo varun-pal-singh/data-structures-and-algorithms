@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PermutationWithSpaces",
+            "request": "launch",
+            "mainClass": "A_Theory.Recursion.AdityaVerma.InputOutput.PermutationWithSpaces",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
             "name": "UniqueSubset",
             "request": "launch",
             "mainClass": "A_Theory.Recursion.AdityaVerma.InputOutput.UniqueSubset",
