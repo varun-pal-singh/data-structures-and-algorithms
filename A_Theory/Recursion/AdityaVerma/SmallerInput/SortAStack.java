@@ -4,8 +4,9 @@ public class SortAStack {
     public static void main(String[] args) {
         Stack<Integer> stk = new Stack<>();
         int[] inputArr = new int[]{2, 4, 1, 2, 8, 3, 5, 10, 6, 6};
-        for(int el : inputArr)
+        for(int el : inputArr){
             stk.push(el);
+        }
         System.out.println("Before sorting: "+stk);
         sort(stk);
         System.out.println("After sorting: "+stk);
@@ -14,7 +15,7 @@ public class SortAStack {
         if(stk.size() == 1){
             return;
         }
-        int temp =  stk.pop();
+        int temp = stk.pop();
         sort(stk);
         insert(stk, temp);
         return;
