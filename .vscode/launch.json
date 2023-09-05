@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LC78_Subsets",
+            "request": "launch",
+            "mainClass": "B_Practice.LC78_Subsets",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
             "name": "SortAStack",
             "request": "launch",
             "mainClass": "A_Theory.Recursion.AdityaVerma.SmallerInput.SortAStack",
