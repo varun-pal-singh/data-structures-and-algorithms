@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReverseANum",
+            "request": "launch",
+            "mainClass": "B_Practice.Recursion.ReverseANum",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
             "name": "LC78_Subsets",
             "request": "launch",
             "mainClass": "B_Practice.LC78_Subsets",
