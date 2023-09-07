@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Subseq",
+            "request": "launch",
+            "mainClass": "A_Theory.Recursion.SubSet_SubSeq.Subseq",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
+            "name": "RemoveAWord",
+            "request": "launch",
+            "mainClass": "A_Theory.Recursion.Strings.RemoveAWord",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
+            "name": "RemoveAElement",
+            "request": "launch",
+            "mainClass": "A_Theory.Recursion.Strings.RemoveAElement",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
+            "name": "RemoveAElement",
+            "request": "launch",
+            "mainClass": "A_Theory.Recursion.Subset.RemoveAElement",
+            "projectName": "data-structures-and-algorithms_f206f5a9"
+        },
+        {
+            "type": "java",
             "name": "ReverseANum",
             "request": "launch",
             "mainClass": "B_Practice.Recursion.ReverseANum",
