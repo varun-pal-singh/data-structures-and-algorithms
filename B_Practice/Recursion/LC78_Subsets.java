@@ -1,4 +1,4 @@
-package B_Practice;
+package B_Practice.Recursion;
 import java.util.ArrayList;
 import java.util.List;
 
