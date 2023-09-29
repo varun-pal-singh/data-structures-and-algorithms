@@ -5,11 +5,100 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcdc3126-706c-4ce1-84c2-4eea536486d5" name="Changes" comment="Shifted to intellij">
-      <change afterPath="$PROJECT_DIR$/A_Theory/EnumExample/Basic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A_Theory/OOP/Collections/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Leetcode_Sheets/B_Binary_Search/LC875Koko.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A_Theory/EnumExample/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/A_Theory/EnumExample/Basic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/EnumExample/Basic$Week.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/EnumExample/Basic$Week.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/EnumExample/Basic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/EnumExample/Basic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Example.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Example.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/LinkedList/LinkedList_Execution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/LinkedList/LinkedList_Execution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/AbstractDemo/AbstractDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/AbstractDemo/AbstractDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/AbstractDemo/Daughter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/AbstractDemo/Daughter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/AbstractDemo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/AbstractDemo/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/AbstractDemo/Son.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/AbstractDemo/Son.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/Car1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/Car1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/NestedInterface/A$NestedInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/NestedInterface/A$NestedInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/NestedInterface/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/NestedInterface/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/NestedInterface/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/NestedInterface/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/NestedInterface/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/NestedInterface/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/ProperWorking/ElectricEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/ProperWorking/ElectricEngine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/ProperWorking/Engine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/ProperWorking/Engine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/ProperWorking/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/ProperWorking/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/ProperWorking/Media.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/ProperWorking/Media.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/ProperWorking/MediaPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/ProperWorking/MediaPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/ProperWorking/NiceCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/ProperWorking/NiceCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/ProperWorking/PowerEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/ProperWorking/PowerEngine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/Tyre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/AbstractInterfacesAnnotations/Interfaces/Tyre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Classes_Constructors_Objects/FinalObjectExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Classes_Constructors_Objects/FinalObjectExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Classes_Constructors_Objects/School.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Classes_Constructors_Objects/School.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Classes_Constructors_Objects/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Classes_Constructors_Objects/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Classes_Constructors_Objects/WrapperExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Classes_Constructors_Objects/WrapperExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Collections/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Collections/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/GenericsLambdaException/Generics/Comparing/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/GenericsLambdaException/Generics/Comparing/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/GenericsLambdaException/Generics/Comparing/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/GenericsLambdaException/Generics/Comparing/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/GenericsLambdaException/Generics/CustomGenericArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/GenericsLambdaException/Generics/CustomGenericArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/GenericsLambdaException/Generics/CustomIntegerArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/GenericsLambdaException/Generics/CustomIntegerArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/GenericsLambdaException/Generics/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/GenericsLambdaException/Generics/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/GenericsLambdaException/Generics/WildCardExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/GenericsLambdaException/Generics/WildCardExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/GenericsLambdaException/LambdaFuntions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/GenericsLambdaException/LambdaFuntions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Packages_Static_Singleton_Inbuilt_Methods/packageExample/packageA/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Packages_Static_Singleton_Inbuilt_Methods/packageExample/packageA/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Packages_Static_Singleton_Inbuilt_Methods/packageExample/packageB/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Packages_Static_Singleton_Inbuilt_Methods/packageExample/packageB/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Packages_Static_Singleton_Inbuilt_Methods/singletonClasses/Singleton1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Packages_Static_Singleton_Inbuilt_Methods/singletonClasses/Singleton1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Packages_Static_Singleton_Inbuilt_Methods/singletonClasses/SingletonExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Packages_Static_Singleton_Inbuilt_Methods/singletonClasses/SingletonExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Packages_Static_Singleton_Inbuilt_Methods/staticExample/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Packages_Static_Singleton_Inbuilt_Methods/staticExample/Human.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Packages_Static_Singleton_Inbuilt_Methods/staticExample/InnerClasses$Inner1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Packages_Static_Singleton_Inbuilt_Methods/staticExample/InnerClasses$Inner1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Packages_Static_Singleton_Inbuilt_Methods/staticExample/InnerClasses$Inner2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Packages_Static_Singleton_Inbuilt_Methods/staticExample/InnerClasses$Inner2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Packages_Static_Singleton_Inbuilt_Methods/staticExample/InnerClasses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Packages_Static_Singleton_Inbuilt_Methods/staticExample/InnerClasses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Packages_Static_Singleton_Inbuilt_Methods/staticExample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Packages_Static_Singleton_Inbuilt_Methods/staticExample/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Packages_Static_Singleton_Inbuilt_Methods/staticExample/StaticBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/Packages_Static_Singleton_Inbuilt_Methods/staticExample/StaticBlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/PrinciplesOfOOP/Inheritance/Box.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/PrinciplesOfOOP/Inheritance/Box.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/PrinciplesOfOOP/Inheritance/BoxPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/PrinciplesOfOOP/Inheritance/BoxPrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/PrinciplesOfOOP/Inheritance/BoxWeight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/PrinciplesOfOOP/Inheritance/BoxWeight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/PrinciplesOfOOP/Inheritance/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/PrinciplesOfOOP/Inheritance/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/PrinciplesOfOOP/Polymorphism/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/PrinciplesOfOOP/Polymorphism/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/PrinciplesOfOOP/Polymorphism/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/PrinciplesOfOOP/Polymorphism/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/PrinciplesOfOOP/Polymorphism/Shapes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/PrinciplesOfOOP/Polymorphism/Shapes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/PrinciplesOfOOP/Polymorphism/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/PrinciplesOfOOP/Polymorphism/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/PrinciplesOfOOP/Polymorphism/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/OOP/PrinciplesOfOOP/Polymorphism/Triangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Queue/Queue_Execution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Queue/Queue_Execution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Queue/_Priority_Queue/PriorityQueue_Execution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Queue/_Priority_Queue/PriorityQueue_Execution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/AdityaVerma/InputOutput/GenAllBalParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/AdityaVerma/InputOutput/GenAllBalParentheses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/AdityaVerma/InputOutput/NBitBinaryPrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/AdityaVerma/InputOutput/NBitBinaryPrefix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/AdityaVerma/InputOutput/PerWithCaseChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/AdityaVerma/InputOutput/PerWithCaseChange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/AdityaVerma/InputOutput/PerWithRandomCaseAndDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/AdityaVerma/InputOutput/PerWithRandomCaseAndDigits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/AdityaVerma/InputOutput/PermutationWithSpaces.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/AdityaVerma/InputOutput/PermutationWithSpaces.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/AdityaVerma/InputOutput/Subset.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/AdityaVerma/InputOutput/Subset.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/AdityaVerma/InputOutput/UniqueSubset.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/AdityaVerma/InputOutput/UniqueSubset.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/AdityaVerma/SmallerInput/DeleteMiddleEleOfStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/AdityaVerma/SmallerInput/DeleteMiddleEleOfStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/AdityaVerma/SmallerInput/JosephusProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/AdityaVerma/SmallerInput/JosephusProblem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/AdityaVerma/SmallerInput/KthSymbolGrammer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/AdityaVerma/SmallerInput/KthSymbolGrammer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/AdityaVerma/SmallerInput/ReverseAStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/AdityaVerma/SmallerInput/ReverseAStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/AdityaVerma/SmallerInput/SortAStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/AdityaVerma/SmallerInput/SortAStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/AdityaVerma/SmallerInput/TowerOfHanoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/AdityaVerma/SmallerInput/TowerOfHanoi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/DivideAndConquer/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/DivideAndConquer/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/DivideAndConquer/Fibo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/DivideAndConquer/Fibo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/DivideAndConquer/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/DivideAndConquer/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/Numbers/DecimalToBinary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/Numbers/DecimalToBinary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/Numbers/SumOfNaturalNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/Numbers/SumOfNaturalNum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/Strings/Palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/Strings/Palindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/Strings/RemoveAElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/Strings/RemoveAElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/Strings/RemoveAWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/Strings/RemoveAWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/Strings/ReverseString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/Strings/ReverseString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/SubSet_SubSeq/Permutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/SubSet_SubSeq/Permutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/SubSet_SubSeq/Subseq.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/SubSet_SubSeq/Subseq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/SubSet_SubSeq/Subset.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Recursion/SubSet_SubSeq/Subset.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Stack/SortAStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Stack/SortAStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Stack/Stack_Execution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/A_Theory/Stack/Stack_Execution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/B_Practice/Recursion/LC17_phoneDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/B_Practice/Recursion/LC17_phoneDigits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/B_Practice/Recursion/LC78_Subsets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/B_Practice/Recursion/LC78_Subsets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/B_Practice/Recursion/ReverseANum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/B_Practice/Recursion/ReverseANum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/Child.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/ClassA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/ClassA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/ObjectClassDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/ObjectClassDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/data-structures-and-algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/data-structures-and-algorithms.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,40 +139,10 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu-22.04/home/varun/projects/data-structures-and-algorithms&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;
   }
 }</component>
-  <component name="QodanaHighlightedReportService">
-    <option name="localRunNotPublishedPersistedInfo">
-      <LocalReportPersistedInfo>
-        <option name="path" value="C:\Users\VARUNP~1\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
-        <option name="reportGuid" value="71633040-828a-4a59-bf4a-d9cc4cf1b01c" />
-        <option name="reportName" value="data-structures-and-algorithms/qodana/2023-09-29" />
-      </LocalReportPersistedInfo>
-    </option>
-  </component>
-  <component name="QodanaIsSelectedPersistenceService">
-    <option name="selectedOrLoading" value="true" />
-  </component>
-  <component name="QodanaReportsService">
-    <option name="descriptions">
-      <ReportDescription localRun="true" path="C:\Users\VARUNP~1\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="71633040-828a-4a59-bf4a-d9cc4cf1b01c" reportId="data-structures-and-algorithms/qodana/2023-09-29" />
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Basic (2)">
-    <configuration name="A_Theory.OOP.Collections.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A_Theory.OOP.Collections.Main" />
-      <module name="data-structures-and-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A_Theory.OOP.Collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LC875Koko">
     <configuration name="Basic (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A_Theory.EnumExample.Basic" />
       <module name="data-structures-and-algorithms" />
@@ -125,12 +184,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A_Theory.OOP.AbstractInterfacesAnnotations.Interfaces.ProperWorking.Main" />
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A_Theory.Example" />
       <module name="data-structures-and-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A_Theory.OOP.AbstractInterfacesAnnotations.Interfaces.ProperWorking.*" />
+          <option name="PATTERN" value="A_Theory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LC875Koko" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C_Leetcode_Sheets.B_Binary_Search.LC875Koko" />
+      <module name="data-structures-and-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="C_Leetcode_Sheets.B_Binary_Search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Basic (2)" />
+        <item itemvalue="Application.LC875Koko" />
         <item itemvalue="Application.Basic" />
+        <item itemvalue="Application.Example" />
+        <item itemvalue="Application.Basic (2)" />
         <item itemvalue="Application.Basic (1)" />
-        <item itemvalue="Application.A_Theory.OOP.Collections.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

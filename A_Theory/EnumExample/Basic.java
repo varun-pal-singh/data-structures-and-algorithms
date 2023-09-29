@@ -15,7 +15,7 @@ public class Basic {
         for(Week day : Week.values()){
             System.out.println(day);
         }
-        for(int i = 1; i < 11; i++){
+        for(int i = 1; i < 19; i++){
             System.out.print(i+", ");
         }
     }
