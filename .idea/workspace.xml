@@ -4,39 +4,68 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcdc3126-706c-4ce1-84c2-4eea536486d5" name="Changes" comment="Shifted to intellij" />
+    <list default="true" id="bcdc3126-706c-4ce1-84c2-4eea536486d5" name="Changes" comment="Shifted to intellij">
+      <change afterPath="$PROJECT_DIR$/A_Theory/EnumExample/Basic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A_Theory/OOP/Collections/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A_Theory/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/A_Theory/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structures-and-algorithms/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://C:/Program Files/Java/jdk-17.0.4/lib/src.zip!/java.base/java/util/Collections.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2W30hSx8TFi7d6IlS271XpSNmrn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "//wsl$/Ubuntu-22.04/home/varun/projects/data-structures-and-algorithms",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu-22.04/home/varun/projects/data-structures-and-algorithms&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A_Theory.OOP.AbstractInterfacesAnnotations.Interfaces.ProperWorking.Main" />
+}</component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\VARUNP~1\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="71633040-828a-4a59-bf4a-d9cc4cf1b01c" reportId="data-structures-and-algorithms/qodana/2023-09-29" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Basic">
+    <configuration name="A_Theory.OOP.Collections.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A_Theory.OOP.Collections.Main" />
       <module name="data-structures-and-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A_Theory.OOP.AbstractInterfacesAnnotations.Interfaces.ProperWorking.*" />
+          <option name="PATTERN" value="A_Theory.OOP.Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -44,12 +73,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A_Theory.Recursion.AdityaVerma.InputOutput.Subset" />
+    <configuration name="Basic (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A_Theory.EnumExample.Basic" />
       <module name="data-structures-and-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A_Theory.Recursion.AdityaVerma.InputOutput.*" />
+          <option name="PATTERN" value="A_Theory.EnumExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Basic (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A_Theory.EnumExample.Basic" />
+      <module name="data-structures-and-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A_Theory.EnumExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="A_Theory.EnumExample.Basic" />
+      <module name="data-structures-and-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A_Theory.EnumExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A_Theory.Example" />
+      <module name="data-structures-and-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A_Theory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,8 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Subset" />
+        <item itemvalue="Application.Basic" />
+        <item itemvalue="Application.Example" />
+        <item itemvalue="Application.Basic (2)" />
+        <item itemvalue="Application.Basic (1)" />
+        <item itemvalue="Application.A_Theory.OOP.Collections.Main" />
       </list>
     </recent_temporary>
   </component>

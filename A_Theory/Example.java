@@ -5,7 +5,7 @@ import A_Theory.OOP.GenericsLambdaException.Generics.CustomIntegerArrayList;
 public class Example {
     public static void main(String[] args) {
         CustomIntegerArrayList list = new CustomIntegerArrayList();
-        for(int i=0; i<15; i++)
+        for(int i=0; i<17; i++)
             list.add(i);
 
 
