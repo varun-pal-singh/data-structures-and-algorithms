@@ -5,8 +5,8 @@ public class NiceCar {
     private Media media;
 
     public NiceCar(){
-        engine = new PowerEngine();
-        media = new MediaPlayer();
+        this.engine = new PowerEngine();
+        this.media = new MediaPlayer();
     }
 
     public NiceCar(Engine engine, Media media){
