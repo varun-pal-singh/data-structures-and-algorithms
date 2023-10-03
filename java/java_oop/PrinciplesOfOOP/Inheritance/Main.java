@@ -1,4 +1,4 @@
-package A_Theory.OOP.PrinciplesOfOOP.Inheritance;
+package java.java_oop.PrinciplesOfOOP.Inheritance;
 
 public class Main {
     public static void main(String[] args) {     

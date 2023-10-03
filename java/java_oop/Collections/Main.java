@@ -1,4 +1,4 @@
-package A_Theory.OOP.Collections;
+package java.java_oop.Collections;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-package A_Theory.Recursion.Numbers;
+package java.java_dsa.Recursion.Numbers;
 
 public class SumOfNaturalNum {
     public static void main(String[] args) {

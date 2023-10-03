@@ -1,4 +1,4 @@
-package A_Theory.LinkedList;
+package java.java_dsa.LinkedList;
 import java.util.*;
 
 // LinkedList = stores Nodes in 2 parts (data + address)

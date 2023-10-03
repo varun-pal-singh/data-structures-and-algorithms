@@ -1,4 +1,4 @@
-package A_Theory.Recursion.AdityaVerma.InputOutput;
+package java.java_dsa.Recursion.AdityaVerma.InputOutput;
 
 public class Subset {
     public static void main(String[] args) {

@@ -1,3 +1,4 @@
+
 public class Main {
     public static void main(String[] args) {
         ClassA obj = new ClassA(10, "Varun");

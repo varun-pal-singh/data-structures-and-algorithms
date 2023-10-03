@@ -1,4 +1,4 @@
-package A_Theory.Recursion.SubSet_SubSeq;
+package java.java_dsa.Recursion.SubSet_SubSeq;
 import java.util.ArrayList;
 
 public class Subseq {

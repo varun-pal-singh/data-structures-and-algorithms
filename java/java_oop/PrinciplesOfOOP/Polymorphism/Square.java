@@ -1,4 +1,4 @@
-package A_Theory.OOP.PrinciplesOfOOP.Polymorphism;
+package java.java_oop.PrinciplesOfOOP.Polymorphism;
 
 public class Square extends Shapes{
     @Override

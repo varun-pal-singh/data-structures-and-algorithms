@@ -1,3 +1,4 @@
+
 public class ObjectClassDemo extends Object {
 
     int n1, n2;

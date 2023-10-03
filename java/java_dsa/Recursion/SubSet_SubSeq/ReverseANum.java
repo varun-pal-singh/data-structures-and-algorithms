@@ -1,4 +1,4 @@
-package B_Practice.Recursion;
+package java.java_dsa.Recursion.SubSet_SubSeq;
 
 public class ReverseANum {
     public static void main(String[] args) {

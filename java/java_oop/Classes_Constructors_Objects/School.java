@@ -1,4 +1,4 @@
-package A_Theory.OOP.Classes_Constructors_Objects;
+package java.java_oop.Classes_Constructors_Objects;
 
 // classes -> logical construct (not exists physically).
 // objects -> physical reality (occuping space in memeory).

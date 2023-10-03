@@ -1,4 +1,4 @@
-package A_Theory.Recursion.SubSet_SubSeq;
+package java.java_dsa.Recursion.SubSet_SubSeq;
 
 public class Permutation {
     public static void main(String[] args) {

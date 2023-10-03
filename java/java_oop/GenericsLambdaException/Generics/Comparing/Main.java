@@ -1,4 +1,4 @@
-package A_Theory.OOP.GenericsLambdaException.Generics.Comparing;
+package java.java_oop.GenericsLambdaException.Generics.Comparing;
 
 import java.util.Arrays;
 import java.util.Comparator;

@@ -1,4 +1,4 @@
-package A_Theory.OOP.Packages_Static_Singleton_Inbuilt_Methods.singletonClasses;
+package java.java_oop.Packages_Static_Singleton_Inbuilt_Methods.singletonClasses;
 
 // What is singleton class ?
 // It is class of which you can create only one object.

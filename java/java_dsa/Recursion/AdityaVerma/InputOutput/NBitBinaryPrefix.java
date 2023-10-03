@@ -1,4 +1,4 @@
-package A_Theory.Recursion.AdityaVerma.InputOutput;
+package java.java_dsa.Recursion.AdityaVerma.InputOutput;
 import java.util.ArrayList;
 /*num = 11010
  * prefix = 11010, 1101, 110, 11, 1 in all cases 1 should be 

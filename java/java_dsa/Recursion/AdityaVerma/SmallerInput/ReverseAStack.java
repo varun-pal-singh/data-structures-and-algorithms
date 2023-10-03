@@ -1,4 +1,4 @@
-package A_Theory.Recursion.AdityaVerma.SmallerInput;
+package java.java_dsa.Recursion.AdityaVerma.SmallerInput;
 import java.util.Stack;
 public class ReverseAStack {
     public static void main(String[] args) {

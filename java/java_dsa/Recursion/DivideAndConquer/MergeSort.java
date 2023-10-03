@@ -1,4 +1,4 @@
-package A_Theory.Recursion.DivideAndConquer;
+package java.java_dsa.Recursion.DivideAndConquer;
 import java.util.Arrays;
 public class MergeSort {
     public static void main(String[] args) {

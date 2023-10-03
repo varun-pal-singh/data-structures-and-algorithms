@@ -1,4 +1,4 @@
-package A_Theory.Recursion.AdityaVerma.SmallerInput;
+package java.java_dsa.Recursion.AdityaVerma.SmallerInput;
 
 public class TowerOfHanoi {
     public static void main(String[] args) {

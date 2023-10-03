@@ -1,4 +1,4 @@
-package A_Theory.EnumExample;
+package java.java_theory.EnumExample;
 
 public class Basic {
     enum Week{

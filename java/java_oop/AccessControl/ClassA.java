@@ -1,5 +1,4 @@
 
-
 public class ClassA {
     private int num;
     String name;
