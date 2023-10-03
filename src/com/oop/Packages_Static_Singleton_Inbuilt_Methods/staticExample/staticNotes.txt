@@ -1,0 +1,39 @@
+1) Static properties and methods are belong to the class not to objects.
+
+2) Static properties of class are not dependant on instance of that class.
+
+Note : Whenever we have to declear, access and modify the static property or methods don't use name of instance (though it will work but don't do this way), use only class name (convention)
+
+3) whenever a propery is declared as static it can access through "Class.property" without making new instance by "new Class();"
+
+Example, population of human on earth is same for everyhuman.
+
+4) static method can only access static data (we know that something which is not static, belongs to an object)
+
+You can't use non-static property in static method because it requires an instance, but the static function you are using does not depend on instance.
+
+You cannot access non-static stuff form static methods without creating objects.
+
+By creating object of class, non-static properties and methods can be accessible by static properties and methods (Ex. main()). 
+
+You can have access to static properties inside non-static methods.
+
+5) static methods can call static method without need of object, but if static method need to access non-static properties or methods then it will require an object of that class in which properties is present.
+
+6) non-static method first() can call another non-static method second() because to call a first() from main(), main() will 100% will require an object, if object is not provided then first() will never be called.
+
+7) because static properties and method does not depend on objects (which are created on run time), hence static properties and methods are resolved during compile time.
+
+Q) In "public static void main(String[] args){}", why main() is static method ?
+
+Ans) 
+
+1) main() is very first thing whenever program is running, it has to be static in order to be accessible (then you are able to run main() without creating a object of that class in which main() is). 
+
+2) If it were non-static then we have to create instance of class to access main() but then problem will be how are you going to create an object of such class ?
+    (i) from another class, then again you will need main() in another class.
+    (ii) and otherwise, cannot make an object.
+
+Q) can you use "this" keyword inside static method of object or class.
+
+ans) No, because "this" represents current refernce to an object, and static method can't use non-static properties (class have their properties as static and objects have their properties as non-static and can have access to static properties of class, after the creation of object).

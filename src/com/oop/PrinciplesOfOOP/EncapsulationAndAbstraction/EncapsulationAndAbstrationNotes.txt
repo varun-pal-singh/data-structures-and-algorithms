@@ -1,0 +1,25 @@
+Encapsulation :- means wrapping up the implimentation of data members and methods inside a class, it hides the members into a single unit so that can be protected from outside world.
+
+putting things in bundle by private keyword and only show properties by get and set methods.
+
+data hiding (private keyword) focuses on data security and encapsulation focus on arapping data to hide the complexity of system.
+
+Example for data hiding :   we use ArrayLists,
+    
+        ArrayList<Integer> list = new ArrayList<>();
+
+    we can modify this with list.add(), list.set() etc methods but "WE CAN'T ACCESS THE INTERNAL ARRAY WHICH IS USED TO MAKE THIS ARRAYLIST"
+
+Datahiding is achieved via Encapsulation and Encapsulation is sub-process of Datahiding.
+
+
+############################################################################################################################
+
+
+Abstraction :- Hiding unnessary details and only showing valuable information.
+
+Example: To start a car we don't need to know all the mechanics of car, we just insert key and car starts.
+
+Abstraction focus on external stuff (design level), Encapsulation focus on internal working of stuff (implimentation things).
+
+Abstraction is the process of gaining the information and Encapsulation is the process of containing information.

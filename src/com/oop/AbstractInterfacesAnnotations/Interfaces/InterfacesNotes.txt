@@ -1,0 +1,25 @@
+* Interfaces supports multiple Inheritance.
+
+* Interfaces contains abstract functions, it is like a class only but not completely.
+
+* It is like abstract class, in which functions are of type public and abstract only, and variables are static and FINAL by default in Interfaces.
+
+* Interface can have static methods, which will always having body, and they can't be inherited. You have to call them by Interface name.
+
+* Abstract classes can provide the implementation of Interfaces but Interfaces cann't provide implementation of Abstract classes.
+
+* it is implemented by "IMPLEMENTS" keyword.
+
+* Interfaces can IMPLEMENTS another Interfaces.
+
+* Two clases with no relation with each other can also IMPLEMENTS same Interfaces.
+
+* Anotations are also internally Interface 
+
+* "DEFAULT" keyword :- to provide a means by which interfaces could be expended without breaking of existing code.
+
+    for example : you add another method without a body in interface, then you have to provide the body of that method in all the classes which implements that interface. 
+
+* Nested Interface can be public, private, or protected but, top level Interface has to be public or default.
+
+* You should be careful not to use interfaces casually in performance critical code, dynamic method dispatch or dynamic method lookup at runtime create extra overhead on compiler then normal methods.
