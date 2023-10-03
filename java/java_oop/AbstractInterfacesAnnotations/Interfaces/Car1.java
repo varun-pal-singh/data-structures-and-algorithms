@@ -1,7 +1,7 @@
-package A_Theory.OOP.AbstractInterfacesAnnotations.Interfaces;
+package java.java_oop.AbstractInterfacesAnnotations.Interfaces;
 
-import A_Theory.OOP.AbstractInterfacesAnnotations.Interfaces.ProperWorking.Engine;
-import A_Theory.OOP.AbstractInterfacesAnnotations.Interfaces.ProperWorking.Media;
+import java.java_oop.AbstractInterfacesAnnotations.Interfaces.ProperWorking.Engine;
+import java.java_oop.AbstractInterfacesAnnotations.Interfaces.ProperWorking.Media;
 
 public class Car1 implements Engine, Tyre, Media{
     @Override

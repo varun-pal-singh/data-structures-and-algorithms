@@ -1,4 +1,4 @@
-package A_Theory.Recursion.Strings;
+package java.java_dsa.Recursion.Strings;
 
 public class Palindrome {
     public static void main(String[] args) {

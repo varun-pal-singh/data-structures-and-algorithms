@@ -1,4 +1,4 @@
-package A_Theory.OOP.PrinciplesOfOOP.Inheritance;
+package java.java_oop.PrinciplesOfOOP.Inheritance;
 
 // whenever you declear a class as final all the methods of this class will also be final
 

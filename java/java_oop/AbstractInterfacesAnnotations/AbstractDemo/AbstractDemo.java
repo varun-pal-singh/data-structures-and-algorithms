@@ -1,4 +1,4 @@
-package A_Theory.OOP.AbstractInterfacesAnnotations.AbstractDemo;
+package java.java_oop.AbstractInterfacesAnnotations.AbstractDemo;
 
 public abstract class AbstractDemo {
     int age;

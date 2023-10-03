@@ -1,4 +1,4 @@
-package A_Theory.Queue._Priority_Queue;
+package java.java_dsa.Queue._Priority_Queue;
 import java.util.*;
 
 // Priority Queue = A FIFO data structure that serves elements

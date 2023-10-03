@@ -1,4 +1,4 @@
-package A_Theory.OOP.AbstractInterfacesAnnotations.Interfaces.ProperWorking;
+package java.java_oop.AbstractInterfacesAnnotations.Interfaces.ProperWorking;
 
 public class MediaPlayer implements Media{
     @Override

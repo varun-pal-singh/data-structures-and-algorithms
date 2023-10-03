@@ -1,4 +1,4 @@
-package A_Theory.OOP.AbstractInterfacesAnnotations.Interfaces.NestedInterface;
+package java.java_oop.AbstractInterfacesAnnotations.Interfaces.NestedInterface;
 
 public class A {
     public interface NestedInterface{

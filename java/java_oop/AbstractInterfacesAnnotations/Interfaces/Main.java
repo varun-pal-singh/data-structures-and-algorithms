@@ -1,9 +1,9 @@
-package A_Theory.OOP.AbstractInterfacesAnnotations.Interfaces;
+package java.java_oop.AbstractInterfacesAnnotations.Interfaces;
 
-import A_Theory.OOP.AbstractInterfacesAnnotations.Interfaces.ProperWorking.ElectricEngine;
-import A_Theory.OOP.AbstractInterfacesAnnotations.Interfaces.ProperWorking.MediaPlayer;
-import A_Theory.OOP.AbstractInterfacesAnnotations.Interfaces.ProperWorking.NiceCar;
-import A_Theory.OOP.AbstractInterfacesAnnotations.Interfaces.ProperWorking.PowerEngine;
+import java.java_oop.AbstractInterfacesAnnotations.Interfaces.ProperWorking.ElectricEngine;
+import java.java_oop.AbstractInterfacesAnnotations.Interfaces.ProperWorking.MediaPlayer;
+import java.java_oop.AbstractInterfacesAnnotations.Interfaces.ProperWorking.NiceCar;
+import java.java_oop.AbstractInterfacesAnnotations.Interfaces.ProperWorking.PowerEngine;
 
 public class Main {
     public static void main(String[] args) {

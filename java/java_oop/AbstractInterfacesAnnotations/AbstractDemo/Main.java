@@ -1,4 +1,4 @@
-package A_Theory.OOP.AbstractInterfacesAnnotations.AbstractDemo;
+package java.java_oop.AbstractInterfacesAnnotations.AbstractDemo;
 
 public class Main {
     public static void main(String[] args) {

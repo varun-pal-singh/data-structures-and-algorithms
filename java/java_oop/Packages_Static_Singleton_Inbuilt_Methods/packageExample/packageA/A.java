@@ -1,6 +1,6 @@
-package A_Theory.OOP.Packages_Static_Singleton_Inbuilt_Methods.packageExample.packageA;
+package java.java_oop.Packages_Static_Singleton_Inbuilt_Methods.packageExample.packageA;
 
-import A_Theory.OOP.Packages_Static_Singleton_Inbuilt_Methods.packageExample.packageB.B;
+import java.java_oop.Packages_Static_Singleton_Inbuilt_Methods.packageExample.packageB.B;
 
 
 public class A {

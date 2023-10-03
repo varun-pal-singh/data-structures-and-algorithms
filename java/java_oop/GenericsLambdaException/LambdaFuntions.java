@@ -1,4 +1,4 @@
-package A_Theory.OOP.GenericsLambdaException;
+package java.java_oop.GenericsLambdaException;
 
 import java.util.ArrayList;
 

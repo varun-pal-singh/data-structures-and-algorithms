@@ -1,4 +1,4 @@
-package java.java_dsa.Recursion.SubSet_SubSeq;
+package java_code.java_dsa.Recursion.SubSet_SubSeq;
 import java.util.ArrayList;
 import java.util.List;
 

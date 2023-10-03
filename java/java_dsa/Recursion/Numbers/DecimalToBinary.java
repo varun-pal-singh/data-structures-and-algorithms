@@ -1,4 +1,4 @@
-package A_Theory.Recursion.Numbers;
+package java.java_dsa.Recursion.Numbers;
 
 public class DecimalToBinary {
     public static void main(String[] args) {

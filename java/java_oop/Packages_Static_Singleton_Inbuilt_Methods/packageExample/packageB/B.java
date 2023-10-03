@@ -1,4 +1,4 @@
-package A_Theory.OOP.Packages_Static_Singleton_Inbuilt_Methods.packageExample.packageB;
+package java.java_oop.Packages_Static_Singleton_Inbuilt_Methods.packageExample.packageB;
 
 public class B {
     String message = "I am inside in B";

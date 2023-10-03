@@ -1,4 +1,4 @@
-package A_Theory.OOP.Packages_Static_Singleton_Inbuilt_Methods.staticExample;
+package java.java_oop.Packages_Static_Singleton_Inbuilt_Methods.staticExample;
 
 // outer classes cannot be static because they are not dependent on any other classes.
 // inner classes have to static because they are dependent on outer classes (this means that by adding static to inner class, main will not requrie an object of outer class)

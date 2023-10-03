@@ -1,4 +1,4 @@
-package A_Theory.OOP.Packages_Static_Singleton_Inbuilt_Methods.staticExample;
+package java.java_oop.Packages_Static_Singleton_Inbuilt_Methods.staticExample;
 
 // this is a demo to show initialisation of static variables
 

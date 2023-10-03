@@ -1,4 +1,4 @@
-package java.java_dsa.Recursion.SubSet_SubSeq;
+package java_code.java_dsa.Recursion.SubSet_SubSeq;
 
 public class LC17_phoneDigits {
     public static void main(String[] args) {
