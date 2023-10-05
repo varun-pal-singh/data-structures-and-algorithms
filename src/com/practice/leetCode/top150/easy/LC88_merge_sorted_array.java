@@ -55,6 +55,9 @@ public class LC88_merge_sorted_array {
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
         if(m == 0){
             System.arraycopy(nums2, 0, nums1, 0, nums2.length); // manual copy
+//            for(int i = 0; i < nums2.length; i++){
+//                nums1[i] = nums2[i];
+//            }
         }
     }
 }
