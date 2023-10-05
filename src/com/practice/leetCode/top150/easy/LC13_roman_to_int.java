@@ -45,19 +45,11 @@ public class LC13_roman_to_int {
         String s1 = "MCMXCIV";
         System.out.println(romanToInt("LVIII"));
         System.out.println(romanToInt("MCMXCIV"));
+
+        System.out.println(optimal("LVIII"));
+        System.out.println(optimal("MCMXCIV"));
     }
-    public static HashMap<Character, Integer> buildMap(){
-        HashMap<Character, Integer> map = new HashMap<>();
-        map.put('I', 1);
-        map.put('V', 5);
-        map.put('X', 10);
-        map.put('L', 50);
-        map.put('C', 100);
-        map.put('D', 50);
-        map.put('M', 1000);
-        return map;
-    }
-    public static  int romanToInt(String s) {
+    public static int romanToInt(String s) {
         if(s.isEmpty()) return 0;
         HashMap<Character, Integer> map = buildMap();
         char[] chars = s.toCharArray();
@@ -71,7 +63,39 @@ public class LC13_roman_to_int {
             }
             sum += currVal;
         }
-
         return sum;
+    }
+    public static int optimal(String str){
+        int sum = 0, currVal = 0, prevVal = 0;
+        for(int i = 0; i < str.length(); i++){
+            currVal = switch (str.charAt(i)) {
+                case 'I' -> 1;
+                case 'V' -> 5;
+                case 'X' -> 10;
+                case 'L' -> 50;
+                case 'C' -> 100;
+                case 'D' -> 500;
+                case 'M' -> 1000;
+                default -> currVal;
+            };
+            if(prevVal < currVal){
+                sum -= 2 * prevVal;
+            }
+            sum += currVal;
+            prevVal = currVal;
+        }
+        return sum;
+    }
+
+    public static HashMap<Character, Integer> buildMap(){
+        HashMap<Character, Integer> map = new HashMap<>();
+        map.put('I', 1);
+        map.put('V', 5);
+        map.put('X', 10);
+        map.put('L', 50);
+        map.put('C', 100);
+        map.put('D', 50);
+        map.put('M', 1000);
+        return map;
     }
 }
