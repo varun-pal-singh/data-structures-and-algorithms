@@ -45,11 +45,16 @@ package com.practice.leetCode.top150.easy;
  * Follow up: Can you come up with an algorithm that runs in
  * O(m + n) time?
  */
+import java.util.Arrays;
 public class LC88_merge_sorted_array {
     public static void main(String[] args) {
-
+        int[] nums1 = {0, 0, 0}, nums2 = {1, 2, 3};
+        merge(nums1, nums1.length - nums2.length, nums2, nums2.length);
+        System.out.println(nums1 +" "+ Arrays.toString(nums1));
     }
-    public void merge(int[] nums1, int m, int[] nums2, int n) {
-
+    public static void merge(int[] nums1, int m, int[] nums2, int n) {
+        if(m == 0){
+            System.arraycopy(nums2, 0, nums1, 0, nums2.length); // manual copy
+        }
     }
 }
