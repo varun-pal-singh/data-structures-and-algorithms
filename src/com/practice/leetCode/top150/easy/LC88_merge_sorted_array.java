@@ -66,6 +66,12 @@ public class LC88_merge_sorted_array {
             while (j >= 0) {
                 nums1[k--] = nums2[j--];
             }
+            if (m == 0) {
+                System.arraycopy(nums2, 0, nums1, 0, nums2.length); // manual copy
+//            for(int i = 0; i < nums2.length; i++){    // for same thing
+//                nums1[i] = nums2[i];
+//            }
+            }
         }
     }
 }
