@@ -25,12 +25,48 @@ package com.practice.leetCode.top150.easy;
  * 1 <= s.length <= 104
  * s consists of parentheses only '()[]{}'.
  */
+import java.util.HashMap;
+import java.util.Stack;
 public class LC20_valid_parentheses {
     public static void main(String[] args) {
+        String s = "()[]{}", s1 = ")[]", s2 = "(}){}";
+        System.out.println("s : " + isValid(s));
+        System.out.println("s1 : " + isValid(s1));
+        System.out.println("s2 : " + isValid(s2));
 
+        System.out.println("Optimal");
+        System.out.println("s : " + optimal(s));
+        System.out.println("s1 : " + optimal(s1));
+        System.out.println("s2 : " + optimal(s2));
     }
-    public boolean isValid(String s) {
-
-        return  false;
+    public static boolean isValid(String s) {
+        HashMap<Character, Character> map = new HashMap<>();
+        Stack<Character> stk = new Stack<>();
+        map.put(')', '(');
+        map.put('}', '{');
+        map.put(']', '[');
+        for(char ch : s.toCharArray()){
+            if(!map.containsKey(ch)){
+                stk.push(ch);
+            }else if(stk.isEmpty() || stk.peek() != map.get(ch)){
+                    return false;
+            }else{
+                stk.pop();
+            }
+        }
+        return  stk.isEmpty();
+    }
+    public static boolean optimal(String s){
+        Stack<Character> stk = new Stack<>();
+        for(char ch : s.toCharArray()){
+            if (ch == '(' || ch == '{' || ch == '['){
+                stk.push(ch);
+            }else if(stk.isEmpty() || (stk.peek() == '(' && ch != ')') || (stk.peek() == '{' && ch != '}') || (stk.peek() == '[' && ch != ']')){
+                    return false;
+            }else{
+                stk.pop();
+            }
+        }
+        return stk.isEmpty();
     }
 }

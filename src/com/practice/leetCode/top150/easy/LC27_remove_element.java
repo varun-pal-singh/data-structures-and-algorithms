@@ -53,7 +53,7 @@ package com.practice.leetCode.top150.easy;
  * 0 <= nums[i] <= 50
  * 0 <= val <= 100
  */
-public class LC27_remove_elements {
+public class LC27_remove_element {
     public static void main(String[] args) {
 
     }

@@ -21,7 +21,7 @@ package com.practice.leetCode.top150.easy;
  * in O(1) space?
  */
 import java.util.HashMap;
-public class LC69_majority_element {
+public class LC169_majority_element {
     public static void main(String[] args) {
         int[] nums = {2,2,1,1,1,2,2};
         System.out.println("Majority El : "+ majorityElement(nums));
