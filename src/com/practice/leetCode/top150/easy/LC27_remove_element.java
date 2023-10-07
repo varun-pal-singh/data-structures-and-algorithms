@@ -14,18 +14,15 @@ package com.practice.leetCode.top150.easy;
  * remaining elements of nums are not important as well as the
  * size of nums.
  * Return k.
+
  * Custom Judge:
-
  * The judge will test your solution with the following code:
-
  * int[] nums = [...]; // Input array
  * int val = ...; // Value to remove
  * int[] expectedNums = [...]; // The expected answer with correct length.
  *                             // It is sorted with no values equaling val.
-
  * int k = removeElement(nums, val); // Calls your
  * implementation
-
  * assert k == expectedNums.length;
  * sort(nums, 0, k); // Sort the first k elements of nums
  * for (int i = 0; i < actualLength; i++) {
@@ -53,12 +50,21 @@ package com.practice.leetCode.top150.easy;
  * 0 <= nums[i] <= 50
  * 0 <= val <= 100
  */
+import java.util.Arrays;
 public class LC27_remove_element {
     public static void main(String[] args) {
-
+        int[] nums = {0,1,2,2,3,0,4,2};
+        int val = 2;
+        System.out.println("k is : " + removeElement(nums, val));
     }
-    public int removeElement(int[] nums, int val) {
-
-        return -1;
+    public static int removeElement(int[] nums, int val) {
+        int idx = 0;
+        for(int i = 0; i < nums.length; i++){
+            if(nums[i] != val){
+                nums[idx++] = nums[i];
+            }
+        }
+        System.out.println(Arrays.toString(nums));
+        return idx;
     }
 }

@@ -1,4 +1,4 @@
-package com.practice.striver.a2Z.binarySearch;
+package com.practice.leetCode.top150.medium;
 /*
 You are given an integer array bloomDay, an integer m and an
 integer k.
