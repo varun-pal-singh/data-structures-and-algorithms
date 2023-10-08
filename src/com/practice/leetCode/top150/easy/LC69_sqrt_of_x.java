@@ -5,7 +5,6 @@ package com.practice.leetCode.top150.easy;
  * should be non-negative as well.
 
  * You must not use any built-in exponent function or operator.
-
  * For example, do not use pow(x, 0.5) in c++ or x ** 0.5 in
  * python.
 
@@ -22,10 +21,19 @@ package com.practice.leetCode.top150.easy;
  */
 public class LC69_sqrt_of_x {
     public static void main(String[] args) {
-
+        int x = 14;
+        System.out.println(mySqrt(x));
     }
-    public int mySqrt(int x) {
-
-        return -1;
+    public static int mySqrt(int x) {
+        int start = 0, end = x, ans = 0;
+        while(start <= end){
+            int sqrt = start + (end - start) / 2;
+            if(sqrt * sqrt <= x){
+                ans = sqrt;
+                start = sqrt + 1;
+            }else
+                end = sqrt - 1;
+        }
+        return ans;
     }
 }

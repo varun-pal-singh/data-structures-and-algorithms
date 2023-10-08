@@ -1,5 +1,4 @@
 package com.practice.leetCode.top150.easy;
-
 /**
  * You are given a large integer represented as an integer
  * array digits, where each digits[i] is the ith digit of the
@@ -35,12 +34,26 @@ package com.practice.leetCode.top150.easy;
  * 0 <= digits[i] <= 9
  * digits does not contain any leading 0's.
  */
+import java.util.Arrays;
 public class LC66_plus_one {
     public static void main(String[] args) {
-
+//        int[] arr = {4,3,2,1,9,9};
+        int[] arr = {9,9,9,9,9};
+        System.out.println(Arrays.toString(plusOne(arr)));
     }
     public static int[] plusOne(int[] digits) {
-
-        return new int[]{-1, -1};
+        int i = digits.length - 1;
+        while(i >= 0){
+            if(digits[i] < 9){
+                digits[i] += 1;
+                return digits;
+            }else{
+                digits[i] = 0;
+                i -= 1;
+            }
+        }
+        int[] newDigits = new int[digits.length + 1];
+        newDigits[0] = 1;
+        return newDigits;
     }
 }

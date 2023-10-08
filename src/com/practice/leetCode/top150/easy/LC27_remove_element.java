@@ -53,7 +53,7 @@ package com.practice.leetCode.top150.easy;
 import java.util.Arrays;
 public class LC27_remove_element {
     public static void main(String[] args) {
-        int[] nums = {0,1,2,2,3,0,4,2};
+        int[] nums = {2,2,0,1,2,2,3,0,4,2};
         int val = 2;
         System.out.println("k is : " + removeElement(nums, val));
     }
@@ -61,7 +61,8 @@ public class LC27_remove_element {
         int idx = 0;
         for(int i = 0; i < nums.length; i++){
             if(nums[i] != val){
-                nums[idx++] = nums[i];
+                nums[idx] = nums[i];
+                idx += 1;
             }
         }
         System.out.println(Arrays.toString(nums));

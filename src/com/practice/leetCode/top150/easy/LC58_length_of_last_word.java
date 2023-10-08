@@ -26,10 +26,19 @@ package com.practice.leetCode.top150.easy;
  */
 public class LC58_length_of_last_word {
     public static void main(String[] args) {
-
+        String s = "   fly me   to   the moon  ";
+        System.out.println("length of last word : "+ lengthOfLastWord(s));
     }
     public static int lengthOfLastWord(String s) {
-
-        return -1;
+        String trimedStr = s.trim();
+        int i = trimedStr.length() - 1, cnt = 0;
+        while(i >= 0){
+            if(trimedStr.charAt(i) != ' '){
+                i -= 1;
+                cnt += 1;
+            }else
+                break;
+        }
+        return cnt;
     }
 }
