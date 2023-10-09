@@ -21,13 +21,12 @@ public class SortAStack {
         return;
     }
     public static void insert(Stack<Integer> stk, int temp){
-        if(stk.size() == 0 || stk.peek() <= temp){
+        if(stk.isEmpty() || stk.peek() <= temp){
             stk.push(temp);
             return;
         }
         int val = stk.pop();
         insert(stk, temp);
         stk.push(val);
-        return;
     }
 }

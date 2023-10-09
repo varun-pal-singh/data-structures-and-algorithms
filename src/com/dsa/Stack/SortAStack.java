@@ -5,27 +5,30 @@ import java.util.Stack;
 public class SortAStack {
     public static void main(String[] args) {
         int[] arr = {5, 3, 1, 4, 2};
-        Stack<Integer> stack = new Stack<Integer>();
-        for(int i=0; i<arr.length; i++){
-            stack.add(arr[i]);
+        Stack<Integer> stack = new Stack<>();
+        for (int el : arr) {
+            stack.add(el);
         }
-        System.out.println(stack.peek());
+        System.out.println(stack);
+
+        System.out.println("Stack after sorting : ");
+        sort(stack);
         System.out.println(stack);
     }
 
-    public static Stack<Integer> sort(Stack<Integer> stack, int ele){
-
-        if(stack.size() == 1) return stack;
-
+    public static void sort(Stack<Integer> stack){
+        if(stack.size() == 1)   return;
         int top = stack.pop();
-        int newTop = stack.peek();
-
-        if(newTop > top){
-            return sort(stack, top);
-        }else{
-            return sort(stack, newTop);
+        sort(stack);
+        insert(stack, top);
+    }
+    public static void insert(Stack<Integer> stk, int el){
+        if(stk.isEmpty() || stk.peek() <= el){
+            stk.push(el);
+            return;
         }
-
-        // return stack;
+        int top = stk.pop();
+        insert(stk, el);
+        stk.push(top);
     }
 }
