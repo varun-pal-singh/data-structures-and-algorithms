@@ -1,104 +1,95 @@
 package com.dsa.linkedList.customLL;
 
 public class MyLinkedList {
-    public Node head, tail;
-    public int size;
+    Node head;
+    int size;
 
-    public void add(int val){
-        Node n = new Node(val);
-        if(head == null && tail == null){   // means list is empty
-            head = n;
-            tail = head;
-        }else{
-            tail.next = n;
-            tail = n;
-//            System.out.println(n.next + " " + tail.next);
-            tail.next = null;   // tail.next is already null
-        }
-        size += 1;
-    }
-
-    public void addFirst(int val){
-        Node n = new Node(val);
-        n.next = head;
-        head = n;
-        if(tail == null){
-            tail = head;
-        }
-        size += 1;
-    }
-
-    public void insert(int val, int idx){
-        if(idx == 0){
-            addFirst(val);
-            return;
-        }
-        if(idx == size){
-             add(val);
-             return;
-        }
-        Node temp = head;
-        for(int i = 1; i < idx; i++){
-            temp = temp.next;
-        }
-        Node node = new Node(val);
-        node.next = temp.next;
-        temp.next = node;
-
-        size += 1;
-    }
-
-    public int removeFirst(){
-        int val = head.val;
-        head = head.next;
-        if(head == null)
-            tail = null;
-        size -= 1;
-        return val;
-    }
-
-    public int removeLast(){
-        if(size <= 1){
-            return removeFirst();
-        }
-        Node prev = get(size - 2);
-        int val = tail.val;
-        tail = prev;
-        tail.next = null;
-        size -= 1;
-        return val;
-    }
-
-    private Node get(int idx){
-        Node temp = head;
-        for(int i = 0; i < idx; i++){
-            temp = temp.next;
-        }
-        return temp;
-    }
-
-    public void display(){
-        Node temp = head;
-        while(temp != null){
-            System.out.print(temp.val + " -> ");
-            temp = temp.next;
-        }
-        System.out.println("null");
-        System.out.println("size = "+size);
-    }
-    private class Node{
-        int val;
+    private static class Node{
+        int value;
         Node next;
-        Node(){
-            val = 0;
-            next = null;
-        }
-        Node(int val){
-            this.val = val;
-        }
-        Node(int val, Node next){
-            this.val = val;
+        private Node(int value){this.value = value;}
+        private Node(int value, Node next){
+            this.value = value;
             this.next = next;
         }
+    }
+
+    public MyLinkedList(){
+        this.head = null;
+        this.size = 0;
+    }
+
+    public int get(int index){
+        Node current = head;
+        for(int i = 0; i < index; i++){
+            current = current.next;
+        }
+        return current.value;
+    }
+
+    public void addAtHead(int value){
+        Node current = new Node(value);
+        current.next = this.head;
+        this.head = current;
+        size += 1;
+    }
+
+    public void addAtTail(int value){
+        if(this.size == 0){
+            addAtHead(value);
+            return;
+        }
+        Node current = head;
+        Node node = new Node(value);
+        while(current.next != null){
+            current = current.next;
+        }
+        current.next = node;
+        node.next = null;
+        size += 1;
+    }
+
+    public void addAtIndex(int value, int index){
+        if(index < 0 || index > this.size) return;
+        if(index == 0){
+            addAtHead(value);
+            return;
+        }
+        if(index == this.size){
+            addAtTail(value);
+            return;
+        }
+        Node prev = head;
+        Node node = new Node(value);
+        for(int i = 0; i < index - 1; i++){
+            prev = prev.next;
+        }
+        node.next = prev.next;
+        prev.next = node;
+        size += 1;
+    }
+
+    public void deleteAtIndex(int index){
+        if(index < 0 || index > this.size)  return;
+        if(index == 0){
+            this.head = this.head.next;
+            size -= 1;
+            return;
+        }
+        Node prev = head;
+        for(int i = 0; i < index - 1; i++){
+            prev = prev.next;
+        }
+        prev.next = prev.next.next;
+        size -= 1;
+    }
+    public void display(){
+        Node current = head;
+        while(current != null){
+            System.out.print(current.value + " -> ");
+            current = current.next;
+        }
+        System.out.println("null");
+        System.out.println("size = " + this.size);
     }
 }

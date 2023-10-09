@@ -58,7 +58,7 @@ import java.util.HashSet;
 public class LC26_remove_duplicates_from_sorted_array {
     public static void main(String[] args) {
         int[] nums = {0,0,1,1,1,2,2,3,3,4}, nums1 = {0, 0, 1, 1, 2, 3, 4, 4, 5, 8, 8, 10, 11, 11};
-        System.out.println("first ans : "+removeDuplicates(nums1));
+        System.out.println("first ans : "+removeDuplicates(nums));
         System.out.println("twoPointers ans : "+twoPointers(nums1));
     }
     public static int removeDuplicates(int[] nums) {    // Not accepted

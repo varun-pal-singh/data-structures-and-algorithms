@@ -3,29 +3,32 @@ package com.dsa.linkedList.customLL;
 public class Main {
     public static void main(String[] args){
         MyLinkedList list = new MyLinkedList();
-        System.out.println(list);
-        System.out.println(list.head);
-        System.out.println(list.tail);
-        System.out.println(list.size);
-
-        // adding
-        list.add(1);
-        list.add(2);
-        list.addFirst(3);
-        list.addFirst(4);   // this is the latest head
-        list.add(5);    // this is the latest tail
-        list.insert(10, 2);
-
-
-        // display
         list.display();
 
-        // remove first
-        System.out.println(list.removeFirst());;
+        // add at head
+        list.addAtHead(1);
+        list.addAtHead(2); // latest head
         list.display();
 
-        // remove last
-        System.out.println(list.removeLast());;
+        // add at tail
+        list.addAtTail(3);
+        list.addAtTail(4); // latest tail
+        list.display();
+
+        // add at index 2
+        list.addAtIndex(5, 2);
+        list.display();
+
+        // delete at index 2
+        list.deleteAtIndex(0);
+        list.display();
+
+        // add at index == size, i.e., 4
+        list.addAtIndex(6, 4);
+        list.display();
+
+        // add at index == size, i.e., 5
+        list.addAtIndex(7, 5);
         list.display();
     }
 }
