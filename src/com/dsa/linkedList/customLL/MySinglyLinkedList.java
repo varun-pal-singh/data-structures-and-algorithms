@@ -1,6 +1,6 @@
 package com.dsa.linkedList.customLL;
 
-public class MyLinkedList {
+public class MySinglyLinkedList {
     Node head;
     int size;
 
@@ -14,12 +14,13 @@ public class MyLinkedList {
         }
     }
 
-    public MyLinkedList(){
+    public MySinglyLinkedList(){
         this.head = null;
         this.size = 0;
     }
 
     public int get(int index){
+        if(size == 0 || index < 0 || index > size)   return -1;
         Node current = head;
         for(int i = 0; i < index; i++){
             current = current.next;

@@ -1,8 +1,8 @@
 package com.dsa.linkedList.customLL;
 
-public class Main {
+public class MainSingly {
     public static void main(String[] args){
-        MyLinkedList list = new MyLinkedList();
+        MySinglyLinkedList list = new MySinglyLinkedList();
         list.display();
 
         // add at head
