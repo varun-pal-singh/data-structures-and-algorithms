@@ -80,6 +80,25 @@ public class MyDoublyLinkedList {
        size += 1;
    }
 //   null <- 1 <=> 2 <=> 3 <=> 4 -> null
+    private Node find(int value){
+       Node current = head;
+       while(current != null){
+           if(current.value == value)
+               return current;
+           current = current.next;
+       }
+       return null;
+    }
+    public void addAfter(int after, int value){
+       Node previous = find(after);
+       if(previous == null) return;
+       Node node = new Node(value);
+       node.next = previous.next;
+       if(previous.next != null)
+           previous.next.prev = node;
+       previous.next = node;
+       node.prev = previous;
+    }
    public void deleteIndex(int index){
        if(index < 0 || index >= this.size || this.size == 0)   return;
        if(index == 0){
@@ -108,6 +127,19 @@ public class MyDoublyLinkedList {
        while(current != null){
            System.out.print(current.value + " <==> ");
            current = current.next;
+       }
+       System.out.println("null");
+       System.out.println("Size : " + this.size);
+   }
+   public void displayFromLast(){
+       Node current = this.head;
+       while(current.next != null){
+           current = current.next;
+       }
+       System.out.print("null <==> ");
+       while(current != null){
+           System.out.print(current.value + " <==> ");
+           current = current.prev;
        }
        System.out.println("null");
        System.out.println("Size : " + this.size);
