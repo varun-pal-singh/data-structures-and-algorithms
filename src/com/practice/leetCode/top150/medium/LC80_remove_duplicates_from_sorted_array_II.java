@@ -54,8 +54,21 @@ package com.practice.leetCode.top150.medium;
  * -104 <= nums[i] <= 104
  * nums is sorted in non-decreasing order.
  */
+import java.util.Arrays;
 public class LC80_remove_duplicates_from_sorted_array_II {
     public static void main(String[] args) {
-
+        int[] nums = {0,0,1,1,1,1,2,3,3};
+        System.out.println("After removal : "+general(nums));
+    }
+    public static int general(int[] nums){ // optimal
+        int uniqueIdx = 2;
+        for(int i = 2; i < nums.length; i++){
+            if(nums[uniqueIdx - 2] != nums[i]){
+                nums[uniqueIdx] = nums[i];
+                uniqueIdx += 1;
+            }
+        }
+        System.out.println(Arrays.toString(nums));
+        return uniqueIdx;
     }
 }

@@ -1,4 +1,4 @@
-package com.dsa.linkedList.practice;
+package com.practice.linked_list_practice;
 
 public class InsertUsingRecursion {
     public static void main(String[] args){
