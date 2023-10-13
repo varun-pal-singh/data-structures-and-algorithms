@@ -29,10 +29,16 @@ package com.practice.leetCode.top150.easy;
  */
 public class LC121_best_time_to_buy_and_sell_stock {
     public static void main(String[] args) {
-
+        int[] prices = {7,1,5,3,6,4}, prices1 = {7,6,4,3,1};
+        System.out.println("max profits for prices : "+maxProfitNaive(prices)+" and for prices1 : "+maxProfitNaive(prices1));
     }
-    public static int maxProfit(int[] prices) {
-
-        return -1;
+    public static int maxProfitNaive(int[] prices) {
+        int max = Integer.MIN_VALUE;
+        for(int i = 0; i < prices.length - 1; i++){
+            for(int j = i + 1; j < prices.length; j++){
+                max = Math.max(prices[j] - prices[i], max);
+            }
+        }
+        return Math.max(max, 0);
     }
 }
