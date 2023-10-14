@@ -31,6 +31,8 @@ public class LC121_best_time_to_buy_and_sell_stock {
     public static void main(String[] args) {
         int[] prices = {7,1,5,3,6,4}, prices1 = {7,6,4,3,1};
         System.out.println("max profits for prices : "+maxProfitNaive(prices)+" and for prices1 : "+maxProfitNaive(prices1));
+        System.out.println();
+        System.out.println("max profits for prices : "+maxProfitOptimal(prices)+" and for prices1 : "+maxProfitOptimal(prices1));
     }
     public static int maxProfitNaive(int[] prices) {
         int max = Integer.MIN_VALUE;
@@ -40,5 +42,21 @@ public class LC121_best_time_to_buy_and_sell_stock {
             }
         }
         return Math.max(max, 0);
+    }
+    public static int maxProfitOptimal(int[] prices){
+//         prices = {7,1,5,3,6,4}
+        int currProfit = 0, maxProfit = 0;
+        int currBuying = prices[0];
+        for(int currPrice : prices){
+            if(currPrice < currBuying){
+                currBuying = currPrice;
+            }else{
+                currProfit = currPrice - currBuying;
+            }
+            if(maxProfit < currProfit){
+                maxProfit = currProfit;
+            }
+        }
+        return maxProfit;
     }
 }

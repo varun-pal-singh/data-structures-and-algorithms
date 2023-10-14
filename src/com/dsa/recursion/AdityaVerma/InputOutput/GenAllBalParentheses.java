@@ -5,7 +5,7 @@ import java.util.HashSet;
 
 public class GenAllBalParentheses {
     public static void main(String[] args) {
-        int n = 3;
+        int n = 10;
         System.out.println(generate(n));
         System.out.println(generate2(n));
     }
