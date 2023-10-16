@@ -25,12 +25,15 @@ package com.practice.leetCode.top150.easy;
  * Constraints:
  * 1 <= n <= 231 - 1
  */
+import java.util.*;
 public class LC202_happy_number {
     public static void main(String[] args) {
 
     }
     public static boolean isHappy(int n) {
+        HashSet<Integer> set = new HashSet<>();
+        while(set.add(n)){
 
-        return true;
+        }
     }
 }
