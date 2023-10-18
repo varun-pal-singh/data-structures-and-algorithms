@@ -35,5 +35,6 @@ public class LC202_happy_number {
         while(set.add(n)){
 
         }
+        return false;
     }
 }
