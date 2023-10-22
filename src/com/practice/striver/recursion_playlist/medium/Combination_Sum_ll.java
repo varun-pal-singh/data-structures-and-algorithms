@@ -43,8 +43,10 @@ public class Combination_Sum_ll {
         HashSet<Integer> set = new HashSet<>();
         int idx = 0;
         solveNaive(nums, target, idx, set, ans);
-        Collections.sort(ans);
-        return ans.sort();
+        for (List<Integer> an : ans) {
+            Collections.sort(an);
+        }
+        return ans;
     }
     public static void solveNaive(int[] nums, int target, int idx, HashSet<Integer> set, List<List<Integer>> ans){
         if(idx == nums.length || target == 0){
