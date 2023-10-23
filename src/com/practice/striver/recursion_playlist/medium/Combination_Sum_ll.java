@@ -39,28 +39,27 @@ public class Combination_Sum_ll {
         System.out.println(combinationSum2(nums, target));
     }
     public static List<List<Integer>> combinationSum2(int[] nums, int target) {
-        List<List<Integer>> ans = new ArrayList<>();
-        HashSet<Integer> set = new HashSet<>();
+        HashSet<List<Integer>> ans = new HashSet<>();
+        List<Integer> set = new ArrayList<>();
         int idx = 0;
+        Arrays.sort(nums);
         solveNaive(nums, target, idx, set, ans);
-        for (List<Integer> an : ans) {
-            Collections.sort(an);
-        }
-        return ans;
+        return new ArrayList<>(ans);
     }
-    public static void solveNaive(int[] nums, int target, int idx, HashSet<Integer> set, List<List<Integer>> ans){
+    public static void solveNaive(int[] nums, int target, int idx, List<Integer> list, HashSet<List<Integer>> ans){
         if(idx == nums.length || target == 0){
-            if(target == 0)
-                ans.add(new ArrayList<>(set));
+            if(target == 0){
+                ans.add(new ArrayList<>(list));
+            }
             return;
         }
         // pick
         if(nums[idx] <= target){
-            set.add(nums[idx]);
-            solveNaive(nums, target - nums[idx], idx + 1, set, ans);
-            set.remove(nums[idx]);
+            list.add(nums[idx]);
+            solveNaive(nums, target - nums[idx], idx + 1, list, ans);
+            list.remove(list.size() - 1);
         }
         // not pick
-        solveNaive(nums, target, idx + 1, set, ans);
+        solveNaive(nums, target, idx + 1, list, ans);
     }
 }
