@@ -40,11 +40,15 @@ public class Combination_Sum_ll {
     }
     public static List<List<Integer>> combinationSum2(int[] nums, int target) {
         HashSet<List<Integer>> ans = new HashSet<>();
+        List<List<Integer>> ans1 = new ArrayList<>();
         List<Integer> set = new ArrayList<>();
         int idx = 0;
         Arrays.sort(nums);
         solveNaive(nums, target, idx, set, ans);
-        return new ArrayList<>(ans);
+        solveOptimal(nums, target, idx, set, ans1);
+        System.out.println("Ans "+ ans);
+//        System.out.println("Ans1 "+ ans1);
+        return new ArrayList<>(ans1);
     }
     public static void solveNaive(int[] nums, int target, int idx, List<Integer> list, HashSet<List<Integer>> ans){
         if(idx == nums.length || target == 0){
@@ -61,5 +65,22 @@ public class Combination_Sum_ll {
         }
         // not pick
         solveNaive(nums, target, idx + 1, list, ans);
+    }
+    public static void solveOptimal(int[] nums, int target, int idx, List<Integer> list, List<List<Integer>> ans){
+        if(idx == nums.length || target == 0){
+            if(target == 0){
+                ans.add(new ArrayList<>(list));
+            }
+            return;
+        }
+        for(int i = idx; i < nums.length; i++){
+            // if i is not new and is equal to previous element, then continue
+            if(i > idx && nums[i] == nums[i - 1])   continue;
+            if(nums[i] > target) break;
+
+            list.add(nums[i]);
+            solveOptimal(nums, target - nums[i], i + 1, list, ans);
+            list.remove(list.size() - 1);
+        }
     }
 }
