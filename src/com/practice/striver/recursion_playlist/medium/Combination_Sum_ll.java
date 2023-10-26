@@ -36,7 +36,7 @@ public class Combination_Sum_ll {
     public static void main(String[] args) {
         int[] nums = {10,1,2,7,6,1,5};
         int target = 8;
-        System.out.println(combinationSum2(nums, target));
+        System.out.println("Ans1 "+ combinationSum2(nums, target));
     }
     public static List<List<Integer>> combinationSum2(int[] nums, int target) {
         HashSet<List<Integer>> ans = new HashSet<>();
@@ -45,10 +45,11 @@ public class Combination_Sum_ll {
         int idx = 0;
         Arrays.sort(nums);
         solveNaive(nums, target, idx, set, ans);
+//        System.out.println(Arrays.toString(nums));  // nums is still sorted
         solveOptimal(nums, target, idx, set, ans1);
-        System.out.println("Ans "+ ans);
+        System.out.println("Ans  "+ ans);
 //        System.out.println("Ans1 "+ ans1);
-        return new ArrayList<>(ans1);
+        return ans1;
     }
     public static void solveNaive(int[] nums, int target, int idx, List<Integer> list, HashSet<List<Integer>> ans){
         if(idx == nums.length || target == 0){
@@ -74,7 +75,7 @@ public class Combination_Sum_ll {
             return;
         }
         for(int i = idx; i < nums.length; i++){
-            // if i is not new and is equal to previous element, then continue
+            // if i > idx and is equal to previous element, then continue
             if(i > idx && nums[i] == nums[i - 1])   continue;
             if(nums[i] > target) break;
 
