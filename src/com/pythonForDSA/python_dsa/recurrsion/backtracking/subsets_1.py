@@ -1,10 +1,11 @@
-arr = [1, 2, 3]
+# all subsets
 
 def subset1(arr):
-    ds = []    
+    ds = []   
+    result = [] 
     def helper(idx):
         if idx >= len(arr):
-            print(ds, end =", ")
+            result.append(ds.copy())
             return
         
         # pick
@@ -15,5 +16,8 @@ def subset1(arr):
         # not pick
         helper(idx + 1)
     helper(0)
+    result.sort()
+    return result
 
-subset1(arr)
+arr = [1, 2, 2]
+print(subset1(arr))
