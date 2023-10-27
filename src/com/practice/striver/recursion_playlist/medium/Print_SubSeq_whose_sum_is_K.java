@@ -7,7 +7,7 @@ public class Print_SubSeq_whose_sum_is_K {
         int[] nums = {1, 2, 1};
         ArrayList<Integer> op = new ArrayList<>();
 
-        System.out.println("All Subsequences with sum "+k);
+        System.out.println("All subsets with sum "+k);
         print1(nums, k, idx, sum, op);
 
         System.out.println();
