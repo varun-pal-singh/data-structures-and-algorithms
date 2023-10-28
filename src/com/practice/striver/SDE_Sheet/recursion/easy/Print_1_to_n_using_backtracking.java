@@ -1,4 +1,4 @@
-package com.practice.striver.recursion_playlist;
+package com.practice.striver.SDE_Sheet.recursion.easy;
 
 public class Print_1_to_n_using_backtracking {
     public static void main(String[] a){

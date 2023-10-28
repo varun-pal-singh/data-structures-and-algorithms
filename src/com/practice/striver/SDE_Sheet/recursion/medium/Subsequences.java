@@ -1,4 +1,4 @@
-package com.practice.striver.recursion_playlist.medium;
+package com.practice.striver.SDE_Sheet.recursion.medium;
 import java.util.ArrayList;
 // Subsequences follows order of the array
 public class Subsequences {

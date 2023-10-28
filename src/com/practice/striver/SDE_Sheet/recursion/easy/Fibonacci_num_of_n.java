@@ -1,4 +1,4 @@
-package com.practice.striver.recursion_playlist.easy;
+package com.practice.striver.SDE_Sheet.recursion.easy;
 import java.util.HashMap;
 public class Fibonacci_num_of_n {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package com.practice.striver.recursion_playlist.easy;
+package com.practice.striver.SDE_Sheet.recursion.easy;
 
 import java.util.Arrays;
 public class Reverse_an_array_using_recursion {

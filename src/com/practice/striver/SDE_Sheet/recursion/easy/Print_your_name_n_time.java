@@ -1,5 +1,4 @@
-package com.practice.striver.recursion_playlist;
-import java.sql.SQLOutput;
+package com.practice.striver.SDE_Sheet.recursion.easy;
 import java.util.Scanner;
 public class Print_your_name_n_time {
     public static void main(String[] args){

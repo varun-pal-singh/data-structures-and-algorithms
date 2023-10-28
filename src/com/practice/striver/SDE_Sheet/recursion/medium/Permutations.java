@@ -1,7 +1,7 @@
-package com.practice.striver.recursion_playlist.medium;
+package com.practice.striver.SDE_Sheet.recursion.medium;
 
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Permutations {
     public static void main(String[] args) {
