@@ -5,8 +5,8 @@ import java.util.HashSet;
 
 public class GenAllBalParentheses {
     public static void main(String[] args) {
-        int n = 10;
-        System.out.println(generate(n));
+        int n = 4;
+//        System.out.println(generate(n));
         System.out.println(generate2(n));
     }
     
@@ -20,7 +20,7 @@ public class GenAllBalParentheses {
             set.add(op);
             return set;
         }
-        if(open == close && open != 0){
+        if(open == close && open > 0){
             set.addAll(solve(open - 1, close, op+"("));
         }
         if(open > 0){
