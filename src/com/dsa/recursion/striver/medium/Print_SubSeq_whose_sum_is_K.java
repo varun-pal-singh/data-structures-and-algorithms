@@ -1,4 +1,4 @@
-package com.practice.striver.SDE_Sheet.recursion.medium;
+package com.dsa.recursion.striver.medium;
 
 import java.util.ArrayList;
 public class Print_SubSeq_whose_sum_is_K {

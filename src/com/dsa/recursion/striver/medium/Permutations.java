@@ -1,4 +1,4 @@
-package com.practice.striver.SDE_Sheet.recursion.medium;
+package com.dsa.recursion.striver.medium;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -45,7 +45,6 @@ public class Permutations {
             for (int num : nums) {
                 ds.add(num);
             }
-//            ans.add(new ArrayList<>(ds));
             ans.add(ds);
             return;
         }

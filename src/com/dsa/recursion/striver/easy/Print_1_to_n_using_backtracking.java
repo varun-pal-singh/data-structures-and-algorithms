@@ -1,4 +1,4 @@
-package com.practice.striver.SDE_Sheet.recursion.easy;
+package com.dsa.recursion.striver.easy;
 
 public class Print_1_to_n_using_backtracking {
     public static void main(String[] a){

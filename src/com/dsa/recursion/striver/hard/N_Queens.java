@@ -1,4 +1,4 @@
-package com.practice.striver.SDE_Sheet.recursion.hard;
+package com.dsa.recursion.striver.hard;
 
 import java.util.ArrayList;
 import java.util.List;

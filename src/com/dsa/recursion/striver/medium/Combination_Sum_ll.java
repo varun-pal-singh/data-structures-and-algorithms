@@ -1,4 +1,4 @@
-package com.practice.striver.SDE_Sheet.recursion.medium;
+package com.dsa.recursion.striver.medium;
 
 /**
  * Given a collection of candidate numbers (candidates) and a

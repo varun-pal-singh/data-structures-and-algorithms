@@ -1,4 +1,4 @@
-package com.practice.striver.SDE_Sheet.recursion.easy;
+package com.dsa.recursion.striver.easy;
 
 public class Pow_x_n {
     public static void main(String[] args){

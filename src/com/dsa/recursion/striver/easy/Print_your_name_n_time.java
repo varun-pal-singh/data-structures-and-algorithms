@@ -1,4 +1,4 @@
-package com.practice.striver.SDE_Sheet.recursion.easy;
+package com.dsa.recursion.striver.easy;
 import java.util.Scanner;
 public class Print_your_name_n_time {
     public static void main(String[] args){

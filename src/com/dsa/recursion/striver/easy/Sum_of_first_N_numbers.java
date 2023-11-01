@@ -1,4 +1,4 @@
-package com.practice.striver.SDE_Sheet.recursion.easy;
+package com.dsa.recursion.striver.easy;
 
 public class Sum_of_first_N_numbers {
     public static void main(String[] args){

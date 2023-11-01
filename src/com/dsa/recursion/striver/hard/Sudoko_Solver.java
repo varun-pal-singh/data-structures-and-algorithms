@@ -1,4 +1,4 @@
-package com.practice.striver.SDE_Sheet.recursion.hard;
+package com.dsa.recursion.striver.hard;
 
 /**
  * Write a program to solve a Sudoku puzzle by filling the empty cells.
