@@ -31,5 +31,6 @@ public class LC_287_find_the_duplicate_number {
     }
     public int findDuplicate(int[] nums) {
 
+        return -1;
     }
 }
