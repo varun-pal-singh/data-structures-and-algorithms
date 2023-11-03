@@ -18,12 +18,37 @@ package com.practice.striver.SDE_Sheet.array;
  * intervals[i].length == 2
  * 0 <= start-i <= end-i <= 10^4
  */
+import java.util.Arrays;
+import java.util.List;
+import java.util.ArrayList;
 public class LC_56_merge_intervals {
     public static void main(String[] args) {
-
+        int[][] intervals = {{1,3},{2,6},{19,6},{15,18}};
+        System.out.println("After merger : ");
+        for(int[] interval : merge(intervals)){
+            System.out.println(Arrays.toString(interval));
+        }
     }
-    public int[][] merge(int[][] intervals) {
+    public static int[][] merge(int[][] intervals) {
+        if(intervals.length <= 1)   return intervals;
 
-        return new int[][]{};
+        // sort
+        Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
+
+        List<int[]> result = new ArrayList<>();
+        int[] lastInterval = intervals[0];
+        result.add(lastInterval);
+
+        for(int[] interval : intervals){
+            if(interval[0] <= lastInterval[1]){  // Overlapping
+                lastInterval[1] = Math.max(lastInterval[1], interval[1]);
+            }else{
+                lastInterval = interval;    // made new interval
+                result.add(lastInterval);
+            }
+        }
+
+        int n = result.size();
+        return result.toArray(new int[n][]);
     }
 }

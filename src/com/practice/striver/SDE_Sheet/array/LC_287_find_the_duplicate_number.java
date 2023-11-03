@@ -25,12 +25,21 @@ package com.practice.striver.SDE_Sheet.array;
  * How can we prove that at least one duplicate number must exist in nums?
  * Can you solve the problem in linear runtime complexity?
  */
+import java.util.HashMap;
 public class LC_287_find_the_duplicate_number {
     public static void main(String[] args) {
-
+        int[] nums = {3,1,3,4,2};
+        System.out.println("Duplicate : "+ findDuplicate(nums));
     }
-    public int findDuplicate(int[] nums) {
-
+    public static int findDuplicate(int[] nums) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        // inserting
+        for(int num : nums){
+            map.put(num, map.getOrDefault(num, 0) + 1);
+            if(map.get(num) == 2){
+                return num;
+            }
+        }
         return -1;
     }
 }
