@@ -31,7 +31,6 @@ public class N_Queens {
         boolean[] upLeft = new boolean[2 * n - 1];
         boolean[] downLeft = new boolean[2 * n - 1];
         dfs_optimal(n,0, left, upLeft, downLeft, board, result);
-//        System.out.println(Arrays.deepToString(board));
         return result;
     }
     public static void dfs(int colIdx, char[][] board, List<List<String>> result){
