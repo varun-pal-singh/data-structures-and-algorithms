@@ -26,7 +26,7 @@ public class LC_56_merge_intervals {
         int[][] intervals = {{1,3},{2,6},{19,6},{15,18}};
         System.out.println("After merger : ");
         for(int[] interval : merge(intervals)){
-            System.out.println(Arrays.toString(interval));
+            System.out.print(Arrays.toString(interval) + " ");
         }
     }
     public static int[][] merge(int[][] intervals) {
