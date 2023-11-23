@@ -47,10 +47,18 @@ package com.practice.striver.SDE_Sheet.array;
  */
 public class LC_26_remove_duplicate_from_sorted_array {
     public static void main(String[] args) {
-
+        int[] nums1 = {1,1,2}, nums2 = {0,0,1,1,1,2,2,3,3,4};
+        System.out.println("nums1 output : "+ removeDuplicates(nums1));
+        System.out.println("nums2 output : "+ removeDuplicates(nums2));
     }
-    public int removeDuplicates(int[] nums) {
-
-        return -1;
+    public static int removeDuplicates(int[] nums) {
+        int uniqueIdx = 0, n = nums.length;
+        for(int i = 1; i < n; i++){
+            if(nums[uniqueIdx] != nums[i]){
+                uniqueIdx += 1;
+                nums[uniqueIdx] = nums[i];
+            }
+        }
+        return uniqueIdx + 1; // zero based indexing
     }
 }
