@@ -1,5 +1,5 @@
 package com.practice.striver.SDE_Sheet.linked_list;
-import com.practice.striver.SDE_Sheet.linked_list.MyLinkedList.ListNode;
+import com.practice.striver.SDE_Sheet.linked_list.MyLinkedList;
 /**
  * Given the head of a singly linked list, reverse the list, and
  * return the reversed list.
@@ -31,10 +31,21 @@ public class LC_206_reverse_a_singly_linked_list {
         for(int el : inputArr2){
             list2.addAtTail(el);
         }
-        System.out.println(reverseList(list1.head));
+        list1.print();
+        list1.head = reverseList(list1.head);
+        list1.print(list1.head);
+
+        list2.print();
+        list2.print(reverseList(list2.head));
     }
     public static ListNode reverseList(ListNode head) {
-        ListNode curr = head;
-        return null;
+        ListNode dummy = null;
+        while(head != null){
+            ListNode nextNode = head.next;
+            head.next = dummy;
+            dummy = head;
+            head = nextNode;
+        }
+        return dummy;
     }
 }

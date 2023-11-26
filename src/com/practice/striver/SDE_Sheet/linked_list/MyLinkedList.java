@@ -43,17 +43,17 @@ package com.practice.striver.SDE_Sheet.linked_list;
  */
 public class MyLinkedList {
     ListNode head; int size;
-    public class ListNode{
-        int val; ListNode next;
-        public ListNode(int val){
-            this.val = val;
-            this.next = null;
-        }
-        public ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
+//    public class ListNode{
+//        int val; ListNode next;
+//        public ListNode(int val){
+//            this.val = val;
+//            this.next = null;
+//        }
+//        public ListNode(int val, ListNode next) {
+//            this.val = val;
+//            this.next = next;
+//        }
+//    }
     public MyLinkedList() {
         this.head = null;
         this.size = 0;
@@ -123,5 +123,25 @@ public class MyLinkedList {
         }
         prev.next = prev.next.next;
         this.size -= 1;
+    }
+    // print from given node
+    public void print(ListNode node){
+        ListNode temp = node;
+        while(temp != null){
+            System.out.print(temp.val + "->");
+            temp = temp.next;
+        }
+        System.out.println("null");
+        return;
+    }
+    // print full list start to end
+    public void print(){
+        ListNode temp = head;
+        while(temp != null){
+            System.out.print(temp.val + "->");
+            temp =  temp.next;
+        }
+        System.out.println("null");
+        return;
     }
 }
