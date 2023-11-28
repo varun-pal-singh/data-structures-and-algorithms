@@ -1,5 +1,4 @@
 package com.dsa.array.sorting;
-
 import java.util.Arrays;
 
 public class Cycle_sort {
@@ -13,12 +12,15 @@ public class Cycle_sort {
         while(i < n){
             int correctIdx = nums[i] - 1;
             if(nums[i] != nums[correctIdx]){
-                int temp = nums[i];
-                nums[i] = nums[correctIdx];
-                nums[correctIdx] = temp;
+                swap(nums, i, correctIdx);
             }else{
                 i++;
             }
         }
+    }
+    public static void swap(int[] nums, int i, int j){
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
     }
 }

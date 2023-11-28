@@ -24,29 +24,20 @@ public class LC_234_palindrome_linked_list {
         System.out.println("Is list2 palindrome : "+isPalindrome(list2.head));
     }
     public static boolean isPalindrome(ListNode head) {
-        ListNode mid = findMiddle(head);
-        ListNode prev = mid;
-        mid = mid.next;
-        prev.next = null;
-        mid = reverse(mid, prev);
-        while(mid != null){    // comparing
-            if(head.val != mid.val)    return false;
-            head = head.next;
-            mid = mid.next;
-        }
-        return true;
-    }
-    public static ListNode findMiddle(ListNode head){
-        ListNode fast = head, slow = head;
-        while(fast != null && fast.next != null){
-            fast = fast.next.next;
-            slow = slow.next;
-        }
-        return slow;
+       ListNode mid = findMiddle(head);
+       ListNode prev = mid;
+       mid = mid.next;
+       prev.next = null;
+       mid = reverse(mid, prev);
+       while(mid != null){
+           if(mid.val != head.val)  return false;
+           head = head.next;
+           mid = mid.next;
+       }
+       return true;
     }
     public static ListNode reverse(ListNode node, ListNode prev){
-        ListNode dummy = prev;
-        ListNode nextNode;
+        ListNode dummy = prev, nextNode;
         while(node != null){
             nextNode = node.next;
             node.next = dummy;
@@ -55,6 +46,17 @@ public class LC_234_palindrome_linked_list {
         }
         return dummy;
     }
+    public static ListNode findMiddle(ListNode node){
+        // 1, 2, 2, 1
+        if(node == null)    return null;
+        ListNode fast = node, slow = node;
+        while(fast != null && fast.next != null){
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        return slow;
+    }
+
     public static MyLinkedList makeList(int[] arr){
         MyLinkedList list = new MyLinkedList();
         for(int el : arr){
