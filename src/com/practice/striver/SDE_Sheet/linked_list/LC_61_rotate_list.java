@@ -26,8 +26,28 @@ public class LC_61_rotate_list {
         list2.print(rotateRight(list2.head, k2));
     }
     public static ListNode rotateRight(ListNode head, int k) {
-
-        return null;
+        if(head == null || head.next == null || k == 0) return head;
+        // finding length of the list
+        int n = 1;
+        ListNode temp1 = head;
+//        [1,2,3,4,5]
+        while(temp1.next != null){
+            n += 1;
+            temp1 = temp1.next;
+        }
+        k = k % n;
+        if(k == n || k == 0)    return head;
+        temp1.next = head;
+//        [1,2,3,4,5]
+        int idx = n - k - 1;
+        ListNode temp2 = head;
+        while(idx > 0){
+            temp2 = temp2.next;
+            idx -= 1;
+        }
+        head = temp2.next;
+        temp2.next = null;
+        return head;
     }
     public static MyLinkedList makeList(int[] arr){
         MyLinkedList list = new MyLinkedList();
